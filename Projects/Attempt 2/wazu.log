@@ -1,0 +1,151 @@
+Script started on 2026-10-31 19:20:26+13:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="150" LINES="33"]
+]3008;start=9e8faa1c-82d3-4ed1-a13c-bfe3b20fc1a1;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=7ded783e-546a-40fb-8221-854787756124;pid=2941;cwd=/home/jimmyy/Documents/rpi-log\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/rpi-log[0m$ ssh A[Kadmin1@192.168.68.76
+[?2004l]3008;start=4f2fac88-d661-4c02-bc5a-910530d0af51;type=command;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=7ded783e-546a-40fb-8221-854787756124;pid=2941;cwd=/home/jimmyy/Documents/rpi-log\admin1@192.168.68.76's password: 
+Linux rustyserver 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sat Oct 31 19:19:24 2026 from 192.168.68.67
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;34mwazuh-docker[0m
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m rm waz0h[K[Kug[Kh-docker
+[?2004lrm: cannot remove 'wazuh-docker': Is a directory
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m sudo rm wazuh-c[Ksock[K[K[K[Kdocker
+[?2004l[sudo] password for admin1: 
+Sorry, try again.
+[sudo] password for admin1: 
+rm: cannot remove 'wazuh-docker': Is a directory
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m [K[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker images
+[?2004l                                                      [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                     [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mwazuh/wazuh-dashboard:4.9.2[0m
+                          [39m7622129f46c4[0m       [39m1.79GB[0m          [39m364MB[0m        
+[34m[1mwazuh/wazuh-indexer:4.9.2[0m
+                          [39m654bd546b926[0m       [39m4.23GB[0m         [39m1.82GB[0m        
+[34m[1mwazuh/wazuh-manager:4.9.2[0m
+                          [39mb906ebfc77d7[0m          [39m2GB[0m          [39m614MB[0m        
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker rmi wazuh
+[?2004lError response from daemon: No such image: wazuh:latest
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker rmi wazuh[K[K[K[K[Kwazuh-dashboard
+[?2004lError response from daemon: No such image: wazuh-dashboard:latest
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker image rm wazuh
+[?2004lError response from daemon: No such image: wazuh:latest
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m ^C[Kdocker rmi ^[[200~7622129f46c4~[K[C[1P7622129f46c4[1P7622129f46c4[1P7622129f46c4[1P7622129f46c4[1P7622129f46c4[2P7622129f46c4
+[?2004lUntagged: wazuh/wazuh-dashboard:4.9.2
+Deleted: sha256:7622129f46c44f9fceb06a5e3ef7366f965e45aac60da1bafd828705e582100a
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker rmi 7622129f46c4[K[K[K[K[K[K[K[K[K[K[K[K[7m654bd546b926[27m654bd546b926
+[?2004lUntagged: wazuh/wazuh-indexer:4.9.2
+Deleted: sha256:654bd546b92627974ac65f97836665a387647d6a299bc4c55614620bec1b56de
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker rmi 654bd546b926[K[K[K[K[K[K[K[K[K[K[K[K[7mb906ebfc77d7[27mb906ebfc77d7
+[?2004lUntagged: wazuh/wazuh-manager:4.9.2
+Deleted: sha256:b906ebfc77d78446e9b676e1a0b3cd78e2bf3ac2341688f1726b09c29e0aa826
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m docker images
+[?2004l                                                      [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m   [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m [7msudo rm -rf /var/lib/docker[27m
+[7msudo rm -rf /var/lib/containerd[27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+[A
+[?2004l[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m ls
+[?2004l[0m[01;34mwazuh-docker[0m
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m [7mcurl -sO https://packages.wazuh.com/4.14/wazuh-inst[27m[7ma[27m[7mll.sh[27m[A[01;32madmin1@rustyserver[00m:[01;34m~ $[00m curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh
+[?2004l[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m [7msudo rm -rf /var/lib/docker[27m
+[7msudo rm -rf /var/lib/containerd[27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7msudo rm -rf /var/lib/docker[27m
+[7msudo rm -rf /var/lib/containerd[27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd                               
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C                           sudo bash ./wazuh-install.sh -a
+[?2004l31/10/2026 19:31:17 INFO: Starting Wazuh installation assistant. Wazuh version: 4.14.9
+31/10/2026 19:31:17 INFO: Verbose logging redirected to /var/log/wazuh-install.log
+31/10/2026 19:31:23 INFO: The recommended systems are: Red Hat Enterprise Linux 7, 8, 9; CentOS 7, 8; Amazon Linux 2; Amazon Linux 2023; Ubuntu 16.04, 18.04, 20.04, 22.04; Rocky Linux 9.4.
+31/10/2026 19:31:23 WARNING: The current system does not match with the list of recommended systems. The installation may not work properly.
+31/10/2026 19:31:39 INFO: --- Dependencies ----
+31/10/2026 19:31:39 INFO: Installing gawk.
+31/10/2026 19:31:48 INFO: Verifying that your system meets the recommended minimum hardware requirements.
+31/10/2026 19:31:48 INFO: Wazuh web interface port will be 443.
+31/10/2026 19:31:49 INFO: --- Dependencies ----
+31/10/2026 19:31:49 INFO: Installing lsof.
+31/10/2026 19:32:09 INFO: --- Dependencies ----
+31/10/2026 19:32:09 INFO: Installing apt-transport-https.
+31/10/2026 19:32:18 INFO: Wazuh repository added.
+31/10/2026 19:32:18 INFO: --- Configuration files ---
+31/10/2026 19:32:18 INFO: Generating configuration files.
+31/10/2026 19:32:19 INFO: Generating the root certificate.
+31/10/2026 19:32:19 INFO: Generating Admin certificates.
+31/10/2026 19:32:20 INFO: Generating Wazuh indexer certificates.
+31/10/2026 19:32:20 INFO: Generating Filebeat certificates.
+31/10/2026 19:32:21 INFO: Generating Wazuh dashboard certificates.
+31/10/2026 19:32:22 INFO: Created wazuh-install-files.tar. It contains the Wazuh cluster key, certificates, and passwords necessary for installation.
+31/10/2026 19:32:22 INFO: --- Wazuh indexer ---
+31/10/2026 19:32:22 INFO: Starting Wazuh indexer installation.
+31/10/2026 19:35:43 INFO: Wazuh indexer installation finished.
+31/10/2026 19:35:43 INFO: Wazuh indexer post-install configuration finished.
+31/10/2026 19:35:43 INFO: Starting service wazuh-indexer.
+31/10/2026 19:36:42 INFO: wazuh-indexer service started.
+31/10/2026 19:36:42 INFO: Initializing Wazuh indexer cluster security settings.
+31/10/2026 19:36:54 INFO: Wazuh indexer cluster security configuration initialized.
+31/10/2026 19:36:54 INFO: Wazuh indexer cluster initialized.
+31/10/2026 19:36:54 INFO: --- Wazuh server ---
+31/10/2026 19:36:54 INFO: Starting the Wazuh manager installation.
+31/10/2026 19:41:09 INFO: Wazuh manager installation finished.
+31/10/2026 19:41:09 INFO: Wazuh manager vulnerability detection configuration finished.
+31/10/2026 19:41:09 INFO: Starting service wazuh-manager.
+31/10/2026 19:41:39 INFO: wazuh-manager service started.
+31/10/2026 19:41:39 INFO: Starting Filebeat installation.
+31/10/2026 19:46:19 INFO: Filebeat installation finished.
+31/10/2026 19:46:24 INFO: Filebeat post-install configuration finished.
+31/10/2026 19:46:24 INFO: Starting service filebeat.
+31/10/2026 19:46:30 INFO: filebeat service started.
+31/10/2026 19:46:30 INFO: --- Wazuh dashboard ---
+31/10/2026 19:46:30 INFO: Starting Wazuh dashboard installation.
+31/10/2026 19:50:23 INFO: Wazuh dashboard installation finished.
+31/10/2026 19:50:23 INFO: Wazuh dashboard post-install configuration finished.
+31/10/2026 19:50:23 INFO: Starting service wazuh-dashboard.
+31/10/2026 19:50:26 INFO: wazuh-dashboard service started.
+31/10/2026 19:50:31 INFO: Updating the internal users.
+31/10/2026 19:51:25 INFO: A backup of the internal users has been saved in the /etc/wazuh-indexer/internalusers-backup folder.
+31/10/2026 19:52:02 INFO: The filebeat.yml file has been updated to use the Filebeat Keystore username and password.
+31/10/2026 19:53:02 INFO: Initializing Wazuh dashboard web application.
+31/10/2026 19:53:03 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:53:18 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:53:33 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:53:48 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:54:03 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:54:18 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:54:33 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:54:48 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:55:03 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:55:28 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+31/10/2026 19:55:48 INFO: Wazuh dashboard web application not yet initialized. Waiting...
+^C
+Do you want to remove the ongoing installation?[Y/N]m y
+31/10/2026 19:56:07 INFO: --- Removing existing Wazuh installation ---
+31/10/2026 19:56:07 INFO: Removing Wazuh manager.
+31/10/2026 19:56:58 INFO: Wazuh manager removed.
+31/10/2026 19:56:58 INFO: Removing Wazuh indexer.
+31/10/2026 19:57:12 INFO: Wazuh indexer removed.
+31/10/2026 19:57:12 INFO: Removing Filebeat.
+31/10/2026 19:57:17 INFO: Filebeat removed.
+31/10/2026 19:57:17 INFO: Removing Wazuh dashboard.
+31/10/2026 19:57:33 INFO: Wazuh dashboard removed.
+31/10/2026 19:57:33 INFO: --- Dependencies ----
+31/10/2026 19:57:33 INFO: Removing gawk.
+31/10/2026 19:57:40 INFO: Removing lsof.
+31/10/2026 19:57:46 INFO: Installation cleaned.
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m sudo poweroff
+[?2004l[sudo] password for admin1: 
+[?2004h[01;32madmin1@rustyserver[00m:[01;34m~ $[00m Read from remote host 192.168.68.76: Connection reset by peer
+Connection to 192.168.68.76 closed.
+client_loop: send disconnect: Broken pipe
+]3008;end=4f2fac88-d661-4c02-bc5a-910530d0af51;exit=failure;status=255\]3008;start=9e8faa1c-82d3-4ed1-a13c-bfe3b20fc1a1;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=7ded783e-546a-40fb-8221-854787756124;pid=2941;cwd=/home/jimmyy/Documents/rpi-log\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/rpi-log[0m$ [?2004l
+exit
+
+Script done on 2026-10-31 19:58:29+13:00 [COMMAND_EXIT_CODE="255"]
