@@ -14,7 +14,7 @@ This project is optimized for lightweight edge deployment and minimal resource c
 
 ## Process
 
-This time I followed this [setup](https://github.com) guide 
+This time I followed this [setup](https://documentation.wazuh.com/current/quickstart.html) guide 
 
 Remoted into the Pi (SSH)- 
 `ssh user@ip` 
