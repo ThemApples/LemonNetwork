@@ -1,0 +1,108 @@
+Script started on 2026-11-16 17:59:33+13:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="74" LINES="33"]
+]3008;start=9c60a9c7-0cb5-401f-98a2-e1d8265a5530;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=4393;cwd=/home/jimmyy/Documents/openobserve\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/openobserve[0m$ ssh sadmn[Kin@192.168.68.57
+[?2004l]3008;start=44e0a3ed-2ae4-4e77-b017-26ec59bd6126;type=command;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=4393;cwd=/home/jimmyy/Documents/openobserve\sadmin@192.168.68.57's password: 
+Welcome to Ubuntu 26.04.1 LTS (GNU/Linux 7.0.0-43-generic x86_64)
+
+ * Documentation:  https://docs.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Mon Nov 16 04:59:52 AM UTC 2026
+
+  System load:                      0.27
+  Usage of /:                       17.4% of 232.64GB
+  Memory usage:                     57%
+  Swap usage:                       0%
+  Temperature:                      35.9 C
+  Processes:                        202
+  Users logged in:                  0
+  IPv4 address for wlx7cc2c6259f57: 192.168.68.57
+
+ * Canonical Workshop gives developers fast, composable, reproducible, and
+   secure developer environments that are perfect for agentic workflows.
+
+   https://ubuntu.com/workshop
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Mon Nov 16 04:49:43 2026 from 192.168.68.67
+]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ mkdir openobserve
+[?2004l]3008;start=369b1a84-73d8-4128-a626-5094b36107da;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin\mkdir: openobserve: File exists
+]3008;end=369b1a84-73d8-4128-a626-5094b36107da;exit=failure;status=1\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ mkdir openobserve[C[C[C[C[C[Cr
+[?2004l]3008;start=a6c45c51-4457-42fb-8713-c6bbc447d91d;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin\]3008;end=a6c45c51-4457-42fb-8713-c6bbc447d91d;exit=success\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ cd openobserver
+[?2004l]3008;start=8767bf3d-37ed-4404-8637-69d5dd4ae253;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin\]3008;end=8767bf3d-37ed-4404-8637-69d5dd4ae253;exit=success\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?2004hsadmin@lemonrust:~/openobserver$ touch docker-compose.yml
+[?2004l]3008;start=8910f2f2-a3dd-4ad4-8f71-19707c9c1af5;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\]3008;end=8910f2f2-a3dd-4ad4-8f71-19707c9c1af5;exit=success\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?2004hsadmin@lemonrust:~/openobserver$ nano docker-compose.yml
+[?2004l]3008;start=f3f8fd7e-7836-4ac5-90c3-41e989e685a4;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;30H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1               docker-compose.yml                         [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;51H(B[0;7m*[31d(B[m[K[1;73H[2d[92mservices[39m:[3;3H[92mopenobserve[39m:[4;5H[92mimage[39m: (B[mo2cr.ai/openobserve/openobserve:latest[5;5H[92mcontainer_name[39m: (B[mopenobserve[6;5H[92mrestart[39m: (B[munless-stopped[7;5H[92mports[39m:[8;6H(B[0;1m[33m[1K - (B[0m[95m"5080:5080"[9;5H[92menvironment[39m:[10;7H[92mZO_DATA_DIR[39m: (B[m/data[11;7H[92mZO_ROOT_USER_EMAIL[39m: [95m"root@example.com"[12;7H[92mZO_ROOT_USER_PASSWORD[39m: [95m"Complexpass#123"[13;5H[92mvolumes[39m:[14;6H(B[0;1m[33m[1K - [39m(B[m./data:/data[15d[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[15d[?25l[?12l[?25h[?25l[31d(B[0;7mSave modified buffer?                                                     [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[31;23H[?12l[?25h[?25l[32d(B[0;7m^G(B[m Help[15G(B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup Fil(B[0;7m^T(B[m Browse[33d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^Q(B[m Discard buffer[32;66H[A(B[0;7mWrite to File: docker-compose.yml(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [73G(B[m[31;29H(B[0;7m[ Wrote 13 lines ](B[m[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=f3f8fd7e-7836-4ac5-90c3-41e989e685a4;exit=success\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?2004hsadmin@lemonrust:~/openobserver$ docker copmo[K[K[Kmpose up -d
+[?2004l]3008;start=0a37a855-5f6c-495d-bc24-07c4969b9c46;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?25l[0G[2K[+] up 0/1
+[2K [33m⠋[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.1s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠙[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.2s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠹[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.3s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠸[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.4s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠼[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.5s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠴[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.6s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠦[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.7s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠧[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.8s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠇[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m0.9s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠏[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.0s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠋[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.1s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠙[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.2s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠹[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.3s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠸[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.4s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠼[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.5s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠴[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.6s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠦[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.7s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠧[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.8s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠇[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m1.9s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠏[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m2.0s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠋[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m2.1s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠙[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m2.2s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠹[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m2.3s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠸[0m Image o2cr.ai/openobserve/openobserve:latest Pulling               [34m2.4s[0m
+[?25h[?25l[2A[0G[2K[+] up 1/1
+[2K [32m✔[0m Image o2cr.ai/openobserve/openobserve:latest [32mPulled[0m                [34m2.5s[0m
+[?25h[?25l[2A[0G[2K[+] up 3/3
+
+[2K [32m✔[0m Network openobserver_default                 [32mCreated[0m               [34m0.0s[0m
+[2K [31m[1m✘[0m Container openobserve                        [31m[1mError response fro...[0m [34m0.0s[0m
+[?25hError response from daemon: Conflict. The container name "/openobserve" is already in use by container "173bc4684a64ea798819cb2e05f8d0c1e2c6cf8084b84b78434b208f6c6284be". You have to remove (or rename) that container to be able to reuse that name.
+]3008;end=0a37a855-5f6c-495d-bc24-07c4969b9c46;exit=failure;status=1\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?2004hsadmin@lemonrust:~/openobserver$ docker compose down
+[?2004l]3008;start=eaa0495b-9b56-4e3a-b883-4d26affb7468;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?25l[0G[2K[+] down 0/1
+[2K [33m⠋[0m Network openobserver_default Removing                              [34m0.1s[0m
+[?25h[?25l[2A[0G[2K[+] down 1/1
+[2K [32m✔[0m Network openobserver_default [32mRemoved[0m                               [34m0.1s[0m
+[?25h]3008;end=eaa0495b-9b56-4e3a-b883-4d26affb7468;exit=success\]3008;start=cef27465-7120-4232-bae3-97ef54227cdd;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=6471;cwd=/home/sadmin/openobserver\[?2004hsadmin@lemonrust:~/openobserver$ [?2004l
+logout
+Connection to 192.168.68.57 closed.
+]3008;end=44e0a3ed-2ae4-4e77-b017-26ec59bd6126;exit=success\]3008;start=9c60a9c7-0cb5-401f-98a2-e1d8265a5530;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=4393;cwd=/home/jimmyy/Documents/openobserve\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/openobserve[0m$ [?2004l
+exit
+
+Script done on 2026-11-16 18:04:57+13:00 [COMMAND_EXIT_CODE="0"]
