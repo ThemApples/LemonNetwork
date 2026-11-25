@@ -1,0 +1,2144 @@
+Script started on 2026-11-08 08:02:36+13:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="74" LINES="33"]
+]3008;start=2b772290-e9f9-414d-a6cc-f33ec19cad0c;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=0a4bb9cc-e976-4c44-8890-462525975c71;pid=3596;cwd=/home/jimmyy/Documents/wazuh/desktop-wazuh\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/wazuh/desktop-wazuh[0m$ ssh sadmin@192.168.68.59
+[?2004l]3008;start=ad60dc28-dc0c-4dea-ac24-e103f362e196;type=command;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=0a4bb9cc-e976-4c44-8890-462525975c71;pid=3596;cwd=/home/jimmyy/Documents/wazuh/desktop-wazuh\The authenticity of host '192.168.68.59 (192.168.68.59)' can't be established.
+ED25519 key fingerprint is: SHA256:RvYlTk38QeulP6idP4+JKndjV0LgeAGfk18BeEFoOVs
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added '192.168.68.59' (ED25519) to the list of known hosts.
+sadmin@192.168.68.59's password: 
+Welcome to Ubuntu 26.04.1 LTS (GNU/Linux 7.0.0-43-generic x86_64)
+
+ * Documentation:  https://docs.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sat Nov  7 07:03:30 PM UTC 2026
+
+  System load:                      0.01
+  Usage of /:                       3.2% of 232.64GB
+  Memory usage:                     3%
+  Swap usage:                       0%
+  Temperature:                      28.9 C
+  Processes:                        161
+  Users logged in:                  0
+  IPv4 address for wlx7cc2c6259f57: 192.168.68.59
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+47 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ apt[K[K[K[7msudo apt update && sudo apt upgrade -y[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt update && sudo apt upgrade -y
+[A
+[?2004l]3008;start=ea21f643-d293-4483-bb5e-66277078a947;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[sudo: authenticate] Password: ****    
+[33m0% [Working][0m            Hit:1 http://nz.archive.ubuntu.com/ubuntu resolute InRelease
+[33m0% [Waiting for headers] [Connecting to security.ubuntu.com (185.125.190.[0m                                                                         Hit:2 http://nz.archive.ubuntu.com/ubuntu resolute-updates InRelease
+[33m                                                                         0% [Connecting to security.ubuntu.com (185.125.190.82)][0m                                                       Hit:3 http://nz.archive.ubuntu.com/ubuntu resolute-backports InRelease
+[33m0% [Connecting to security.ubuntu.com (185.125.190.82)][0m[33m0% [Connecting to security.ubuntu.com (185.125.190.82)][0m[33m0% [Connecting to security.ubuntu.com (185.125.190.82)][0m[33m0% [Connecting to security.ubuntu.com (185.125.190.82)][0m                                                       Hit:4 http://security.ubuntu.com/ubuntu resolute-security InRelease
+[33m                                                       0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 8%Reading package lists... 8%Reading package lists... 58%Reading package lists... 58%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m47 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0mReading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                Calculating upgrade... 0%Calculating upgrade... 10%                           The following packages were automatically installed and are no longer required:
+  linux-headers-7.0.0-30
+  linux-headers-7.0.0-30-generic
+  linux-image-unsigned-7.0.0-30-generic
+  linux-main-modules-zfs-7.0.0-30-generic
+  linux-modules-7.0.0-30-generic
+  linux-tools-7.0.0-30
+  linux-tools-7.0.0-30-generic
+Use 'sudo apt autoremove' to remove them.
+
+Upgrading:
+[32m  base-files         netplan-generator    tmux
+  cloud-init         netplan.io           ubuntu-kernel-accessories
+  cloud-init-base    open-iscsi           ubuntu-minimal
+  dmidecode          open-vm-tools        ubuntu-pro-client
+  libaudit-common    python-apt-common    ubuntu-pro-client-l10n
+  libaudit1          python3-apt          ubuntu-release-upgrader-core
+  libflashrom1       python3-distupgrade  ubuntu-server
+  libnetplan1        python3-netplan      ubuntu-server-minimal
+  libnss-systemd     rust-coreutils       ubuntu-standard
+  libopeniscsiusr    snapd                udev
+  libpam-systemd     sos                  vim
+  libsystemd-shared  systemd              vim-common
+  libsystemd0        systemd-cryptsetup   vim-runtime
+  libudev1           systemd-resolved     vim-tiny
+  mdadm              systemd-sysv         xxd
+  motd-news-config   thermald
+[0m
+Summary:
+  Upgrading: 47, Installing: 0, Removing: 0, Not Upgrading: 0
+  Download size: 65.9 MB
+  Freed space: 16.6 MB
+
+[33m0% [Working][0m            Get:1 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 motd-news-config all 14ubuntu6.3 [5,286 B]
+[33m0% [1 motd-news-config 5,286 B/5,286 B 100%][0m[33m                                            0% [Working][0m            Get:2 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 base-files amd64 14ubuntu6.3 [74.7 kB]
+[33m0% [2 base-files 5,220 B/74.7 kB 7%][0m[33m                                    1% [Working][0m            Get:3 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libsystemd0 amd64 259.9-0ubuntu0.1 [481 kB]
+[33m1% [3 libsystemd0 19.4 kB/481 kB 4%][0m[33m                                    2% [Waiting for headers][0m                        Get:4 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpam-systemd amd64 259.9-0ubuntu0.1 [273 kB]
+[33m2% [4 libpam-systemd 24.8 kB/273 kB 9%][0m[33m                                       3% [Waiting for headers][0m                        Get:5 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-sysv amd64 259.9-0ubuntu0.1 [9,420 B]
+[33m3% [5 systemd-sysv 9,420 B/9,420 B 100%][0m[33m                                        3% [Working][0m            Get:6 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-resolved amd64 259.9-0ubuntu0.1 [300 kB]
+[33m3% [6 systemd-resolved 7,651 B/300 kB 3%][0m[33m                                         4% [Working][0m            Get:7 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libsystemd-shared amd64 259.9-0ubuntu0.1 [2,473 kB]
+[33m4% [7 libsystemd-shared 13.9 kB/2,473 kB 1%][0m[33m                                            7% [Working][0m            Get:8 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd amd64 259.9-0ubuntu0.1 [3,137 kB]
+[33m7% [8 systemd 12.4 kB/3,137 kB 0%][0m[33m                                  12% [Working][0m             Get:9 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 systemd-cryptsetup amd64 259.9-0ubuntu0.1 [125 kB]
+[33m12% [9 systemd-cryptsetup 11.1 kB/125 kB 9%][0m[33m                                            12% [Waiting for headers][0m                         Get:10 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 udev amd64 259.9-0ubuntu0.1 [1,525 kB]
+[33m12% [10 udev 10.5 kB/1,525 kB 1%][0m[33m                                 14% [Working][0m             Get:11 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libudev1 amd64 259.9-0ubuntu0.1 [151 kB]
+[33m14% [11 libudev1 20.7 kB/151 kB 14%][0m[33m                                    15% [Working][0m             Get:12 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 open-iscsi amd64 2.1.11-3ubuntu3.1 [329 kB]
+[33m15% [12 open-iscsi 16.5 kB/329 kB 5%][0m[33m                                     16% [Working][0m             Get:13 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libopeniscsiusr amd64 2.1.11-3ubuntu3.1 [46.2 kB]
+[33m16% [13 libopeniscsiusr 8,028 B/46.2 kB 17%][0m[33m                                            16% [Working][0m             Get:14 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libaudit-common all 1:4.1.2-1ubuntu0.1 [4,958 B]
+[33m16% [14 libaudit-common 4,958 B/4,958 B 100%][0m[33m                                             17% [Working][0m             Get:15 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libaudit1 amd64 1:4.1.2-1ubuntu0.1 [55.1 kB]
+[33m17% [15 libaudit1 3,723 B/55.1 kB 7%][0m[33m                                     17% [Waiting for headers][0m                         Get:16 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 rust-coreutils amd64 0.10.0-1ubuntu2~26.04.1 [4,515 kB]
+[33m17% [16 rust-coreutils 9,826 B/4,515 kB 0%][0m[33m22% [16 rust-coreutils 3,696 kB/4,515 kB 82%][0m[33m                                             23% [Waiting for headers][0m                         Get:17 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-netplan amd64 1.2-1ubuntu5.1 [24.8 kB]
+[33m23% [17 python3-netplan 24.8 kB/24.8 kB 100%][0m[33m                                             24% [Working][0m             Get:18 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 netplan-generator amd64 1.2-1ubuntu5.1 [65.1 kB]
+[33m24% [18 netplan-generator 21.6 kB/65.1 kB 33%][0m[33m                                              24% [Waiting for headers][0m                         Get:19 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 netplan.io amd64 1.2-1ubuntu5.1 [69.6 kB]
+[33m24% [19 netplan.io 10.7 kB/69.6 kB 15%][0m[33m                                       25% [Waiting for headers][0m                         Get:20 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libnetplan1 amd64 1.2-1ubuntu5.1 [132 kB]
+[33m25% [20 libnetplan1 3,815 B/132 kB 3%][0m[33m                                      25% [Waiting for headers][0m                         Get:21 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libnss-systemd amd64 259.9-0ubuntu0.1 [227 kB]
+[33m25% [21 libnss-systemd 12.8 kB/227 kB 6%][0m[33m                                         26% [Waiting for headers][0m                         Get:22 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 python-apt-common all 3.1.0ubuntu1.1 [17.0 kB]
+[33m26% [22 python-apt-common 5,479 B/17.0 kB 32%][0m[33m                                              26% [Waiting for headers][0m                         Get:23 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-apt amd64 3.1.0ubuntu1.1 [165 kB]
+[33m26% [23 python3-apt 7,722 B/165 kB 5%][0m[33m                                      27% [Waiting for headers][0m                         Get:24 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-pro-client-l10n amd64 38ubuntu0~26.04 [19.8 kB]
+[33m27% [24 ubuntu-pro-client-l10n 8,637 B/19.8 kB 44%][0m[33m                                                   27% [Waiting for headers][0m                         Get:25 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-pro-client amd64 38ubuntu0~26.04 [243 kB]
+[33m27% [25 ubuntu-pro-client 8,092 B/243 kB 3%][0m[33m                                            28% [Waiting for headers][0m                         Get:26 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 vim amd64 2:9.1.2141-1ubuntu4.10 [2,069 kB]
+[33m28% [26 vim 13.0 kB/2,069 kB 1%][0m[33m                                31% [Waiting for headers][0m                         Get:27 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 vim-tiny amd64 2:9.1.2141-1ubuntu4.10 [869 kB]
+[33m31% [27 vim-tiny 17.2 kB/869 kB 2%][0m[33m                                   33% [Waiting for headers][0m                         Get:28 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 vim-runtime all 2:9.1.2141-1ubuntu4.10 [7,516 kB]
+[33m33% [28 vim-runtime 14.8 kB/7,516 kB 0%][0m[33m37% [28 vim-runtime 3,575 kB/7,516 kB 48%][0m[33m41% [28 vim-runtime 6,718 kB/7,516 kB 89%][0m[33m                                          42% [Waiting for headers][0m                         Get:29 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 vim-common all 2:9.1.2141-1ubuntu4.10 [495 kB]
+[33m42% [29 vim-common 12.6 kB/495 kB 3%][0m[33m                                     43% [Waiting for headers][0m                         Get:30 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-minimal amd64 1.570.4 [8,766 B]
+[33m43% [30 ubuntu-minimal 7,118 B/8,766 B 81%][0m[33m                                           44% [Working][0m             Get:31 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 xxd amd64 2:9.1.2141-1ubuntu4.10 [69.4 kB]
+[33m44% [31 xxd 9,172 B/69.4 kB 13%][0m[33m                                44% [Waiting for headers][0m                         Get:32 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 dmidecode amd64 3.6-2ubuntu1 [72.8 kB]
+[33m44% [32 dmidecode 16.4 kB/72.8 kB 22%][0m[33m                                      45% [Waiting for headers][0m                         Get:33 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-release-upgrader-core all 1:26.04.27 [25.0 kB]
+[33m45% [33 ubuntu-release-upgrader-core 11.8 kB/25.0 kB 47%][0m[33m                                                         45% [Waiting for headers][0m                         Get:34 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-distupgrade all 1:26.04.27 [107 kB]
+[33m45% [34 python3-distupgrade 11.6 kB/107 kB 11%][0m[33m                                               46% [Waiting for headers][0m                         Get:35 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-standard amd64 1.570.4 [8,760 B]
+[33m46% [35 ubuntu-standard 5,344 B/8,760 B 61%][0m[33m                                            46% [Working][0m             Get:36 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 cloud-init-base all 26.2-0ubuntu1~26.04.1 [591 kB]
+[33m46% [36 cloud-init-base 3,203 B/591 kB 1%][0m[33m                                          47% [Working][0m             Get:37 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 cloud-init all 26.2-0ubuntu1~26.04.1 [2,116 B]
+[33m47% [37 cloud-init 2,116 B/2,116 B 100%][0m[33m                                        48% [Waiting for headers][0m                         Get:38 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 libflashrom1 amd64 1.6.0-2ubuntu1.1 [226 kB]
+[33m48% [38 libflashrom1 9,477 B/226 kB 4%][0m[33m                                       48% [Waiting for headers][0m                         Get:39 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 mdadm amd64 4.5-5ubuntu1.1 [475 kB]
+[33m48% [39 mdadm 5,219 B/475 kB 1%][0m[33m                                49% [Waiting for headers][0m                         Get:40 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 snapd amd64 2.77.1+ubuntu26.04.2 [37.0 MB]
+[33m49% [40 snapd 20.2 kB/37.0 MB 0%][0m[33m54% [40 snapd 3,751 kB/37.0 MB 10%][0m[33m58% [40 snapd 7,058 kB/37.0 MB 19%][0m[33m61% [40 snapd 9,901 kB/37.0 MB 27%][0m[33m64% [40 snapd 12.0 MB/37.0 MB 32%]                          6,108 kB/s 4s[0m[33m66% [40 snapd 13.7 MB/37.0 MB 37%]                          6,108 kB/s 4s[0m[33m69% [40 snapd 16.5 MB/37.0 MB 45%]                          6,108 kB/s 3s[0m[33m74% [40 snapd 19.9 MB/37.0 MB 54%]                          6,108 kB/s 3s[0m[33m78% [40 snapd 23.8 MB/37.0 MB 64%]                          6,108 kB/s 2s[0m[33m83% [40 snapd 27.4 MB/37.0 MB 74%]                          6,108 kB/s 1s[0m[33m88% [40 snapd 31.6 MB/37.0 MB 85%]                          6,108 kB/s 1s[0m[33m92% [40 snapd 35.3 MB/37.0 MB 95%]                          6,108 kB/s 0s[0m[33m95% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:41 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 sos all 4.11.2-0ubuntu0.1 [405 kB]
+[33m95% [41 sos 18.3 kB/405 kB 5%]                              6,108 kB/s 0s[0m[33m96% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:42 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 thermald amd64 2.5.11-0ubuntu1.1 [221 kB]
+[33m96% [42 thermald 6,438 B/221 kB 3%]                         6,108 kB/s 0s[0m[33m96% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:43 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 tmux amd64 3.6a-2ubuntu0.2 [517 kB]
+[33m96% [43 tmux 4,955 B/517 kB 1%]                             6,108 kB/s 0s[0m[33m97% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:44 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-kernel-accessories amd64 1.570.4 [8,506 B]
+[33m97% [44 ubuntu-kernel-accessories 8,506 B/8,506 B 100%]     6,108 kB/s 0s[0m[33m98% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:45 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-server amd64 1.570.4 [8,632 B]
+[33m98% [45 ubuntu-server 8,632 B/8,632 B 100%]                 6,108 kB/s 0s[0m[33m98% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:46 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-server-minimal amd64 1.570.4 [8,626 B]
+[33m99% [Waiting for headers]                                   6,108 kB/s 0s[0m                                                                         Get:47 http://nz.archive.ubuntu.com/ubuntu resolute-updates/main amd64 open-vm-tools amd64 2:13.0.10-1ubuntu1.1 [724 kB]
+[33m99% [47 open-vm-tools 26.1 kB/724 kB 4%]                    6,108 kB/s 0s[0m[33m100% [Working]                                              6,108 kB/s 0s[0m                                                                         Fetched 65.9 MB in 10s (6,395 kB/s)
+Extracting templates from packages: 63%Extracting templates from packages: 100%
+Preconfiguring packages ...
+
+7[0;32r8[1A(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139653 files and directories currently installed.)
+Preparing to unpack …/motd-news-config_14ubuntu6.3_all.deb…
+7[33;0f[42m[30mProgress: [  0%][49m[39m [                                                    ] 8Unpacking motd-news-config (14ubuntu6.3) over (14ubuntu6.2)…
+7[33;0f[42m[30mProgress: [  1%][49m[39m [▌                                                   ] 8Preparing to unpack …/base-files_14ubuntu6.3_amd64.deb…
+Unpacking base-files (14ubuntu6.3) over (14ubuntu6.2)…
+7[33;0f[42m[30mProgress: [  2%][49m[39m [█                                                   ] 8Setting up base-files (14ubuntu6.3)…
+motd-news.service is a disabled or a static unit not running, not starting it.
+7[33;0f[42m[30mProgress: [  3%][49m[39m [█▋                                                  ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139653 files and directories currently installed.)
+Preparing to unpack …/libsystemd0_259.9-0ubuntu0.1_amd64.deb…
+Unpacking libsystemd0:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+7[33;0f[42m[30mProgress: [  4%][49m[39m [██▏                                                 ] 8Setting up libsystemd0:amd64 (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [  5%][49m[39m [██▊                                                 ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139653 files and directories currently installed.)
+Preparing to unpack …/libpam-systemd_259.9-0ubuntu0.1_amd64.deb…
+Unpacking libpam-systemd:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+7[33;0f[42m[30mProgress: [  6%][49m[39m [███▎                                                ] 8Preparing to unpack …/systemd-sysv_259.9-0ubuntu0.1_amd64.deb…
+Unpacking systemd-sysv (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+7[33;0f[42m[30mProgress: [  7%][49m[39m [███▊                                                ] 8Preparing to unpack …/systemd-resolved_259.9-0ubuntu0.1_amd64.deb…
+Unpacking systemd-resolved (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+7[33;0f[42m[30mProgress: [  8%][49m[39m [████▍                                               ] 8Preparing to unpack …/libsystemd-shared_259.9-0ubuntu0.1_amd64.deb…
+Unpacking libsystemd-shared:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+7[33;0f[42m[30mProgress: [ 10%][49m[39m [████▉                                               ] 8Setting up libsystemd-shared:amd64 (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 10%][49m[39m [█████▏                                              ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139653 files and directories currently installed.)
+Preparing to unpack …/systemd_259.9-0ubuntu0.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 11%][49m[39m [█████▊                                              ] 8Unpacking systemd (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+Preparing to unpack …/systemd-cryptsetup_259.9-0ubuntu0.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 12%][49m[39m [██████▎                                             ] 8Unpacking systemd-cryptsetup (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+Preparing to unpack …/udev_259.9-0ubuntu0.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 13%][49m[39m [██████▉                                             ] 8Unpacking udev (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+Preparing to unpack …/libudev1_259.9-0ubuntu0.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 14%][49m[39m [███████▍                                            ] 8Unpacking libudev1:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+Setting up libudev1:amd64 (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 15%][49m[39m [███████▉                                            ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139657 files and directories currently installed.)
+Preparing to unpack …/open-iscsi_2.1.11-3ubuntu3.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 16%][49m[39m [████████▌                                           ] 8Unpacking open-iscsi (2.1.11-3ubuntu3.1) over (2.1.11-3ubuntu3)…
+Preparing to unpack …/libopeniscsiusr_2.1.11-3ubuntu3.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 17%][49m[39m [█████████                                           ] 8Unpacking libopeniscsiusr (2.1.11-3ubuntu3.1) over (2.1.11-3ubuntu3)…
+Preparing to unpack …/libaudit-common_1%3a4.1.2-1ubuntu0.1_all.deb…
+7[33;0f[42m[30mProgress: [ 19%][49m[39m [█████████▋                                          ] 8Unpacking libaudit-common (1:4.1.2-1ubuntu0.1) over (1:4.1.2-1build1)…
+7[33;0f[42m[30mProgress: [ 19%][49m[39m [█████████▉                                          ] 8Setting up libaudit-common (1:4.1.2-1ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 20%][49m[39m [██████████▍                                         ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139657 files and directories currently installed.)
+Preparing to unpack …/libaudit1_1%3a4.1.2-1ubuntu0.1_amd64.deb…
+Unpacking libaudit1:amd64 (1:4.1.2-1ubuntu0.1) over (1:4.1.2-1build1)…
+7[33;0f[42m[30mProgress: [ 21%][49m[39m [███████████                                         ] 8Setting up libaudit1:amd64 (1:4.1.2-1ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 22%][49m[39m [███████████▌                                        ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139657 files and directories currently installed.)
+Preparing to unpack …/rust-coreutils_0.10.0-1ubuntu2~26.04.1_amd64.deb…
+Unpacking rust-coreutils (0.10.0-1ubuntu2~26.04.1) over (0.8.0-0ubuntu3)…
+7[33;0f[42m[30mProgress: [ 23%][49m[39m [████████████                                        ] 8Setting up rust-coreutils (0.10.0-1ubuntu2~26.04.1)…
+7[33;0f[42m[30mProgress: [ 24%][49m[39m [████████████▋                                       ] 8(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 139722 files and directories currently installed.)
+Preparing to unpack …/00-python3-netplan_1.2-1ubuntu5.1_amd64.deb…
+Unpacking python3-netplan (1.2-1ubuntu5.1) over (1.2-1ubuntu5)…
+7[33;0f[42m[30mProgress: [ 25%][49m[39m [█████████████▏                                      ] 8Preparing to unpack …/01-netplan-generator_1.2-1ubuntu5.1_amd64.deb…
+Adding “diversion of /lib/systemd/system-generators/netplan to /lib/systemd/system-generators/netplan.usr-is-merged by netplan-generator”
+Unpacking netplan-generator (1.2-1ubuntu5.1) over (1.2-1ubuntu5)…
+7[33;0f[42m[30mProgress: [ 26%][49m[39m [█████████████▊                                      ] 8Preparing to unpack …/02-netplan.io_1.2-1ubuntu5.1_amd64.deb…
+Unpacking netplan.io (1.2-1ubuntu5.1) over (1.2-1ubuntu5)…
+7[33;0f[42m[30mProgress: [ 28%][49m[39m [██████████████▎                                     ] 8Preparing to unpack …/03-libnetplan1_1.2-1ubuntu5.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 28%][49m[39m [██████████████▌                                     ] 8Unpacking libnetplan1:amd64 (1.2-1ubuntu5.1) over (1.2-1ubuntu5)…
+Preparing to unpack …/04-libnss-systemd_259.9-0ubuntu0.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 29%][49m[39m [███████████████▏                                    ] 8Unpacking libnss-systemd:amd64 (259.9-0ubuntu0.1) over (259.5-0ubuntu3.4)…
+Preparing to unpack …/05-python-apt-common_3.1.0ubuntu1.1_all.deb…
+7[33;0f[42m[30mProgress: [ 30%][49m[39m [███████████████▋                                    ] 8Unpacking python-apt-common (3.1.0ubuntu1.1) over (3.1.0ubuntu1)…
+Preparing to unpack …/06-python3-apt_3.1.0ubuntu1.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 31%][49m[39m [████████████████▏                                   ] 8Unpacking python3-apt (3.1.0ubuntu1.1) over (3.1.0ubuntu1)…
+Preparing to unpack …/07-ubuntu-pro-client-l10n_38ubuntu0~26.04_amd64.deb…
+7[33;0f[42m[30mProgress: [ 32%][49m[39m [████████████████▊                                   ] 8Unpacking ubuntu-pro-client-l10n (38ubuntu0~26.04) over (37.2ubuntu0.1)…
+Preparing to unpack …/08-ubuntu-pro-client_38ubuntu0~26.04_amd64.deb…
+7[33;0f[42m[30mProgress: [ 33%][49m[39m [█████████████████▎                                  ] 8Unpacking ubuntu-pro-client (38ubuntu0~26.04) over (37.2ubuntu0.1)…
+Preparing to unpack …/09-vim_2%3a9.1.2141-1ubuntu4.10_amd64.deb…
+7[33;0f[42m[30mProgress: [ 34%][49m[39m [█████████████████▉                                  ] 8Unpacking vim (2:9.1.2141-1ubuntu4.10) over (2:9.1.2141-1ubuntu4.9)…
+Preparing to unpack …/10-vim-tiny_2%3a9.1.2141-1ubuntu4.10_amd64.deb…
+7[33;0f[42m[30mProgress: [ 35%][49m[39m [██████████████████▍                                 ] 8Unpacking vim-tiny (2:9.1.2141-1ubuntu4.10) over (2:9.1.2141-1ubuntu4.9)…
+Preparing to unpack …/11-vim-runtime_2%3a9.1.2141-1ubuntu4.10_all.deb…
+7[33;0f[42m[30mProgress: [ 37%][49m[39m [██████████████████▉                                 ] 8Unpacking vim-runtime (2:9.1.2141-1ubuntu4.10) over (2:9.1.2141-1ubuntu4.9)…
+7[33;0f[42m[30mProgress: [ 37%][49m[39m [███████████████████▎                                ] 8Preparing to unpack …/12-vim-common_2%3a9.1.2141-1ubuntu4.10_all.deb…
+Unpacking vim-common (2:9.1.2141-1ubuntu4.10) over (2:9.1.2141-1ubuntu4.9)…
+7[33;0f[42m[30mProgress: [ 38%][49m[39m [███████████████████▊                                ] 8Preparing to unpack …/13-ubuntu-minimal_1.570.4_amd64.deb…
+Unpacking ubuntu-minimal (1.570.4) over (1.570.3)…
+7[33;0f[42m[30mProgress: [ 39%][49m[39m [████████████████████▎                               ] 8Preparing to unpack …/14-xxd_2%3a9.1.2141-1ubuntu4.10_amd64.deb…
+Unpacking xxd (2:9.1.2141-1ubuntu4.10) over (2:9.1.2141-1ubuntu4.9)…
+7[33;0f[42m[30mProgress: [ 40%][49m[39m [████████████████████▉                               ] 8Preparing to unpack …/15-dmidecode_3.6-2ubuntu1_amd64.deb…
+Unpacking dmidecode (3.6-2ubuntu1) over (3.6-2build1)…
+7[33;0f[42m[30mProgress: [ 41%][49m[39m [█████████████████████▍                              ] 8Preparing to unpack …/16-ubuntu-release-upgrader-core_1%3a26.04.27_all.deb…
+Unpacking ubuntu-release-upgrader-core (1:26.04.27) over (1:26.04.23)…
+7[33;0f[42m[30mProgress: [ 42%][49m[39m [██████████████████████                              ] 8Preparing to unpack …/17-python3-distupgrade_1%3a26.04.27_all.deb…
+Unpacking python3-distupgrade (1:26.04.27) over (1:26.04.23)…
+7[33;0f[42m[30mProgress: [ 43%][49m[39m [██████████████████████▌                             ] 8Preparing to unpack …/18-ubuntu-standard_1.570.4_amd64.deb…
+Unpacking ubuntu-standard (1.570.4) over (1.570.3)…
+7[33;0f[42m[30mProgress: [ 44%][49m[39m [███████████████████████                             ] 8Preparing to unpack …/19-cloud-init-base_26.2-0ubuntu1~26.04.1_all.deb…
+Unpacking cloud-init-base (26.2-0ubuntu1~26.04.1) over (26.1-0ubuntu3~26.04.1)…
+7[33;0f[42m[30mProgress: [ 46%][49m[39m [███████████████████████▋                            ] 8Preparing to unpack …/20-cloud-init_26.2-0ubuntu1~26.04.1_all.deb…
+7[33;0f[42m[30mProgress: [ 46%][49m[39m [███████████████████████▉                            ] 8Unpacking cloud-init (26.2-0ubuntu1~26.04.1) over (26.1-0ubuntu3~26.04.1)…
+Preparing to unpack …/21-libflashrom1_1.6.0-2ubuntu1.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 47%][49m[39m [████████████████████████▍                           ] 8Unpacking libflashrom1:amd64 (1.6.0-2ubuntu1.1) over (1.6.0-2ubuntu1)…
+Preparing to unpack …/22-mdadm_4.5-5ubuntu1.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 48%][49m[39m [█████████████████████████                           ] 8Unpacking mdadm (4.5-5ubuntu1.1) over (4.5-5ubuntu1)…
+Preparing to unpack …/23-snapd_2.77.1+ubuntu26.04.2_amd64.deb…
+7[33;0f[42m[30mProgress: [ 49%][49m[39m [█████████████████████████▌                          ] 8Unpacking snapd (2.77.1+ubuntu26.04.2) over (2.76.3+ubuntu26.04)…
+Preparing to unpack …/24-sos_4.11.2-0ubuntu0.1_all.deb…
+7[33;0f[42m[30mProgress: [ 50%][49m[39m [██████████████████████████▏                         ] 8Unpacking sos (4.11.2-0ubuntu0.1) over (4.10.2-1)…
+Preparing to unpack …/25-thermald_2.5.11-0ubuntu1.1_amd64.deb…
+7[33;0f[42m[30mProgress: [ 51%][49m[39m [██████████████████████████▋                         ] 8Unpacking thermald (2.5.11-0ubuntu1.1) over (2.5.11-0ubuntu1)…
+Preparing to unpack …/26-tmux_3.6a-2ubuntu0.2_amd64.deb…
+7[33;0f[42m[30mProgress: [ 52%][49m[39m [███████████████████████████▏                        ] 8Unpacking tmux (3.6a-2ubuntu0.2) over (3.6a-2ubuntu0.1)…
+Preparing to unpack …/27-ubuntu-kernel-accessories_1.570.4_amd64.deb…
+7[33;0f[42m[30mProgress: [ 53%][49m[39m [███████████████████████████▊                        ] 8Unpacking ubuntu-kernel-accessories (1.570.4) over (1.570.3)…
+Preparing to unpack …/28-ubuntu-server_1.570.4_amd64.deb…
+7[33;0f[42m[30mProgress: [ 54%][49m[39m [████████████████████████████▎                       ] 8Unpacking ubuntu-server (1.570.4) over (1.570.3)…
+7[33;0f[42m[30mProgress: [ 55%][49m[39m [████████████████████████████▌                       ] 8Preparing to unpack …/29-ubuntu-server-minimal_1.570.4_amd64.deb…
+Unpacking ubuntu-server-minimal (1.570.4) over (1.570.3)…
+7[33;0f[42m[30mProgress: [ 56%][49m[39m [█████████████████████████████▏                      ] 8Preparing to unpack …/30-open-vm-tools_2%3a13.0.10-1ubuntu1.1_amd64.deb…
+Unpacking open-vm-tools (2:13.0.10-1ubuntu1.1) over (2:13.0.10-1ubuntu1)…
+7[33;0f[42m[30mProgress: [ 57%][49m[39m [█████████████████████████████▋                      ] 8Setting up sos (4.11.2-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 58%][49m[39m [██████████████████████████████▎                     ] 8Setting up motd-news-config (14ubuntu6.3)…
+7[33;0f[42m[30mProgress: [ 59%][49m[39m [██████████████████████████████▊                     ] 8Setting up ubuntu-kernel-accessories (1.570.4)…
+7[33;0f[42m[30mProgress: [ 60%][49m[39m [███████████████████████████████▎                    ] 8Setting up libnss-systemd:amd64 (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 61%][49m[39m [███████████████████████████████▉                    ] 8Setting up systemd (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 62%][49m[39m [████████████████████████████████▍                   ] 8Setting up libnetplan1:amd64 (1.2-1ubuntu5.1)…
+7[33;0f[42m[30mProgress: [ 63%][49m[39m [█████████████████████████████████                   ] 8Setting up xxd (2:9.1.2141-1ubuntu4.10)…
+7[33;0f[42m[30mProgress: [ 64%][49m[39m [█████████████████████████████████▎                  ] 8Setting up libopeniscsiusr (2.1.11-3ubuntu3.1)…
+7[33;0f[42m[30mProgress: [ 65%][49m[39m [█████████████████████████████████▊                  ] 8Setting up libflashrom1:amd64 (1.6.0-2ubuntu1.1)…
+7[33;0f[42m[30mProgress: [ 66%][49m[39m [██████████████████████████████████▍                 ] 8Setting up vim-common (2:9.1.2141-1ubuntu4.10)…
+7[33;0f[42m[30mProgress: [ 67%][49m[39m [██████████████████████████████████▉                 ] 8Setting up systemd-cryptsetup (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 68%][49m[39m [███████████████████████████████████▍                ] 8Setting up udev (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 69%][49m[39m [████████████████████████████████████                ] 8Setting up python-apt-common (3.1.0ubuntu1.1)…
+7[33;0f[42m[30mProgress: [ 70%][49m[39m [████████████████████████████████████▌               ] 8Setting up open-vm-tools (2:13.0.10-1ubuntu1.1)…
+7[33;0f[42m[30mProgress: [ 71%][49m[39m [█████████████████████████████████████▏              ] 8Setting up python3-netplan (1.2-1ubuntu5.1)…
+7[33;0f[42m[30mProgress: [ 72%][49m[39m [█████████████████████████████████████▋              ] 87[33;0f[42m[30mProgress: [ 73%][49m[39m [█████████████████████████████████████▉              ] 8Setting up netplan-generator (1.2-1ubuntu5.1)…
+Removing “diversion of /lib/systemd/system-generators/netplan to /lib/systemd/system-generators/netplan.usr-is-merged by netplan-generator”
+7[33;0f[42m[30mProgress: [ 74%][49m[39m [██████████████████████████████████████▌             ] 8Setting up dmidecode (3.6-2ubuntu1)…
+7[33;0f[42m[30mProgress: [ 75%][49m[39m [███████████████████████████████████████             ] 8Setting up vim-runtime (2:9.1.2141-1ubuntu4.10)…
+7[33;0f[42m[30mProgress: [ 76%][49m[39m [███████████████████████████████████████▌            ] 8Setting up thermald (2.5.11-0ubuntu1.1)…
+7[33;0f[42m[30mProgress: [ 77%][49m[39m [████████████████████████████████████████▏           ] 8Setting up tmux (3.6a-2ubuntu0.2)…
+7[33;0f[42m[30mProgress: [ 78%][49m[39m [████████████████████████████████████████▋           ] 8Setting up mdadm (4.5-5ubuntu1.1)…
+update-initramfs: deferring update (trigger activated)
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/kdump-tools.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-7.0.0-43-generic
+Found initrd image: /boot/initrd.img-7.0.0-43-generic
+Found linux image: /boot/vmlinuz-7.0.0-30-generic
+Found initrd image: /boot/initrd.img-7.0.0-30-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+7[33;0f[42m[30mProgress: [ 79%][49m[39m [█████████████████████████████████████████▎          ] 8Setting up systemd-resolved (259.9-0ubuntu0.1)…
+Installing new version of config file /etc/systemd/resolved.conf…
+7[33;0f[42m[30mProgress: [ 80%][49m[39m [█████████████████████████████████████████▊          ] 8Setting up snapd (2.77.1+ubuntu26.04.2)…
+Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real…
+snapd.failure.service is a disabled or a static unit not running, not starting it.
+snapd.gpio-chardev-setup.target is a disabled or a static unit not running, not starting it.
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.
+7[33;0f[42m[30mProgress: [ 81%][49m[39m [██████████████████████████████████████████▎         ] 8Setting up systemd-sysv (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 82%][49m[39m [██████████████████████████████████████████▋         ] 8Setting up vim (2:9.1.2141-1ubuntu4.10)…
+7[33;0f[42m[30mProgress: [ 83%][49m[39m [███████████████████████████████████████████▏        ] 8Setting up python3-apt (3.1.0ubuntu1.1)…
+7[33;0f[42m[30mProgress: [ 84%][49m[39m [███████████████████████████████████████████▋        ] 8Setting up vim-tiny (2:9.1.2141-1ubuntu4.10)…
+7[33;0f[42m[30mProgress: [ 85%][49m[39m [████████████████████████████████████████████▎       ] 8Setting up python3-distupgrade (1:26.04.27)…
+7[33;0f[42m[30mProgress: [ 86%][49m[39m [████████████████████████████████████████████▊       ] 8Setting up open-iscsi (2.1.11-3ubuntu3.1)…
+7[33;0f[42m[30mProgress: [ 87%][49m[39m [█████████████████████████████████████████████▍      ] 8Setting up netplan.io (1.2-1ubuntu5.1)…
+7[33;0f[42m[30mProgress: [ 88%][49m[39m [█████████████████████████████████████████████▉      ] 8Setting up ubuntu-release-upgrader-core (1:26.04.27)…
+7[33;0f[42m[30mProgress: [ 89%][49m[39m [██████████████████████████████████████████████▍     ] 8Setting up libpam-systemd:amd64 (259.9-0ubuntu0.1)…
+7[33;0f[42m[30mProgress: [ 90%][49m[39m [███████████████████████████████████████████████     ] 87[33;0f[42m[30mProgress: [ 91%][49m[39m [███████████████████████████████████████████████▎    ] 8Setting up ubuntu-server (1.570.4)…
+7[33;0f[42m[30mProgress: [ 92%][49m[39m [███████████████████████████████████████████████▊    ] 8Setting up ubuntu-pro-client (38ubuntu0~26.04)…
+Installing new version of config file /etc/apparmor.d/ubuntu_pro_esm_cache…
+7[33;0f[42m[30mProgress: [ 93%][49m[39m [████████████████████████████████████████████████▍   ] 8Setting up ubuntu-pro-client-l10n (38ubuntu0~26.04)…
+7[33;0f[42m[30mProgress: [ 94%][49m[39m [████████████████████████████████████████████████▉   ] 8Setting up ubuntu-minimal (1.570.4)…
+7[33;0f[42m[30mProgress: [ 95%][49m[39m [█████████████████████████████████████████████████▌  ] 8Setting up ubuntu-standard (1.570.4)…
+7[33;0f[42m[30mProgress: [ 96%][49m[39m [██████████████████████████████████████████████████  ] 8Setting up cloud-init-base (26.2-0ubuntu1~26.04.1)…
+Installing new version of config file /etc/profile.d/Z99-cloud-locale-test.sh…
+Installing new version of config file /etc/profile.d/Z99-cloudinit-warnings.sh…
+Encountered debconf setting for cloud-init-base/datasources.
+7[33;0f[42m[30mProgress: [ 97%][49m[39m [██████████████████████████████████████████████████▌ ] 8Setting up cloud-init (26.2-0ubuntu1~26.04.1)…
+7[33;0f[42m[30mProgress: [ 98%][49m[39m [███████████████████████████████████████████████████▏] 8Setting up ubuntu-server-minimal (1.570.4)…
+7[33;0f[42m[30mProgress: [ 99%][49m[39m [███████████████████████████████████████████████████▋] 8Processing triggers for libc-bin (2.43-2ubuntu2.4)…
+Processing triggers for rsyslog (8.2512.0-1ubuntu4.2)…
+Processing triggers for man-db (2.13.1-1build1)…
+Processing triggers for plymouth-theme-ubuntu-text (24.004.60+git20250831.4a3c171d-0ubuntu8)…
+Processing triggers for dbus (1.16.2-2ubuntu4)…
+Processing triggers for shared-mime-info (2.4-5build3)…
+Processing triggers for dracut (110-11ubuntu0.1)…
+update-initramfs: Generating /boot/initrd.img-7.0.0-43-generic
+Processing triggers for procps (2:4.0.4-9ubuntu1)…
+Processing triggers for debianutils (5.23.2build1)…
+Processing triggers for install-info (7.2-5ubuntu2)…
+Processing triggers for plymouth (24.004.60+git20250831.4a3c171d-0ubuntu8)…
+Processing triggers for dracut (110-11ubuntu0.1)…
+update-initramfs: Generating /boot/initrd.img-7.0.0-43-generic
+
+7[0;33r8[1A[JScanning processes... [                                                  ]Scanning processes... [                                                  ]Scanning processes... [                                                  ]Scanning processes... [                                                  ]Scanning processes... [=                                                 ]Scanning processes... [=                                                 ]Scanning processes... [=                                                 ]Scanning processes... [==                                                ]Scanning processes... [==                                                ]Scanning processes... [==                                                ]Scanning processes... [===                                               ]Scanning processes... [===                                               ]Scanning processes... [===                                               ]Scanning processes... [====                                              ]Scanning processes... [====                                              ]Scanning processes... [====                                              ]Scanning processes... [=====                                             ]Scanning processes... [=====                                             ]Scanning processes... [=====                                             ]Scanning processes... [======                                            ]Scanning processes... [======                                            ]Scanning processes... [======                                            ]Scanning processes... [=======                                           ]Scanning processes... [=======                                           ]Scanning processes... [=======                                           ]Scanning processes... [=======                                           ]Scanning processes... [========                                          ]Scanning processes... [========                                          ]Scanning processes... [========                                          ]Scanning processes... [=========                                         ]Scanning processes... [=========                                         ]Scanning processes... [=========                                         ]Scanning processes... [==========                                        ]Scanning processes... [==========                                        ]Scanning processes... [==========                                        ]Scanning processes... [===========                                       ]Scanning processes... [===========                                       ]Scanning processes... [===========                                       ]Scanning processes... [============                                      ]Scanning processes... [============                                      ]Scanning processes... [============                                      ]Scanning processes... [=============                                     ]Scanning processes... [=============                                     ]Scanning processes... [=============                                     ]Scanning processes... [==============                                    ]Scanning processes... [==============                                    ]Scanning processes... [==============                                    ]Scanning processes... [==============                                    ]Scanning processes... [===============                                   ]Scanning processes... [===============                                   ]Scanning processes... [===============                                   ]Scanning processes... [================                                  ]Scanning processes... [================                                  ]Scanning processes... [================                                  ]Scanning processes... [=================                                 ]Scanning processes... [=================                                 ]Scanning processes... [=================                                 ]Scanning processes... [==================                                ]Scanning processes... [==================                                ]Scanning processes... [==================                                ]Scanning processes... [===================                               ]Scanning processes... [===================                               ]Scanning processes... [===================                               ]Scanning processes... [====================                              ]Scanning processes... [====================                              ]Scanning processes... [====================                              ]Scanning processes... [=====================                             ]Scanning processes... [=====================                             ]Scanning processes... [=====================                             ]Scanning processes... [=====================                             ]Scanning processes... [======================                            ]Scanning processes... [======================                            ]Scanning processes... [======================                            ]Scanning processes... [=======================                           ]Scanning processes... [=======================                           ]Scanning processes... [=======================                           ]Scanning processes... [========================                          ]Scanning processes... [========================                          ]Scanning processes... [========================                          ]Scanning processes... [=========================                         ]Scanning processes... [=========================                         ]Scanning processes... [=========================                         ]Scanning processes... [==========================                        ]Scanning processes... [==========================                        ]Scanning processes... [==========================                        ]Scanning processes... [===========================                       ]Scanning processes... [===========================                       ]Scanning processes... [===========================                       ]Scanning processes... [============================                      ]Scanning processes... [============================                      ]Scanning processes... [============================                      ]Scanning processes... [============================                      ]Scanning processes... [=============================                     ]Scanning processes... [=============================                     ]Scanning processes... [=============================                     ]Scanning processes... [==============================                    ]Scanning processes... [==============================                    ]Scanning processes... [==============================                    ]Scanning processes... [===============================                   ]Scanning processes... [===============================                   ]Scanning processes... [===============================                   ]Scanning processes... [================================                  ]Scanning processes... [================================                  ]Scanning processes... [================================                  ]Scanning processes... [=================================                 ]Scanning processes... [=================================                 ]Scanning processes... [=================================                 ]Scanning processes... [==================================                ]Scanning processes... [==================================                ]Scanning processes... [==================================                ]Scanning processes... [===================================               ]Scanning processes... [===================================               ]Scanning processes... [===================================               ]Scanning processes... [===================================               ]Scanning processes... [====================================              ]Scanning processes... [====================================              ]Scanning processes... [====================================              ]Scanning processes... [=====================================             ]Scanning processes... [=====================================             ]Scanning processes... [=====================================             ]Scanning processes... [======================================            ]Scanning processes... [======================================            ]Scanning processes... [======================================            ]Scanning processes... [=======================================           ]Scanning processes... [=======================================           ]Scanning processes... [=======================================           ]Scanning processes... [========================================          ]Scanning processes... [========================================          ]Scanning processes... [========================================          ]Scanning processes... [=========================================         ]Scanning processes... [=========================================         ]Scanning processes... [=========================================         ]Scanning processes... [==========================================        ]Scanning processes... [==========================================        ]Scanning processes... [==========================================        ]Scanning processes... [==========================================        ]Scanning processes... [===========================================       ]Scanning processes... [===========================================       ]Scanning processes... [===========================================       ]Scanning processes... [============================================      ]Scanning processes... [============================================      ]Scanning processes... [============================================      ]Scanning processes... [=============================================     ]Scanning processes... [=============================================     ]Scanning processes... [=============================================     ]Scanning processes... [==============================================    ]Scanning processes... [==============================================    ]Scanning processes... [==============================================    ]Scanning processes... [===============================================   ]Scanning processes... [===============================================   ]Scanning processes... [===============================================   ]Scanning processes... [================================================  ]Scanning processes... [================================================  ]Scanning processes... [================================================  ]Scanning processes... [================================================= ]Scanning processes... [================================================= ]Scanning processes... [================================================= ]Scanning processes... [==================================================]Scanning processes...                                                     
+Scanning candidates... [                                                 ]Scanning candidates... [==                                               ]Scanning candidates... [=====                                            ]Scanning candidates... [=======                                          ]Scanning candidates... [==========                                       ]Scanning candidates... [============                                     ]Scanning candidates... [===============                                  ]Scanning candidates... [==================                               ]Scanning candidates... [====================                             ]Scanning candidates... [=======================                          ]Scanning candidates... [=========================                        ]Scanning candidates... [============================                     ]Scanning candidates... [==============================                   ]Scanning candidates... [=================================                ]Scanning candidates... [====================================             ]Scanning candidates... [======================================           ]Scanning candidates... [=========================================        ]Scanning candidates... [===========================================      ]Scanning candidates... [==============================================   ]Scanning candidates... [=================================================]Scanning candidates...                                                    
+Scanning processor microcode... [                                        ]Scanning processor microcode... [====================                    ]Scanning processor microcode... [========================================]Scanning processor microcode...                                           
+Scanning linux images... [                                               ]Scanning linux images... [===========                                    ]Scanning linux images... [=======================                        ]Scanning linux images... [===================================            ]Scanning linux images... [===============================================]Scanning linux images...                                                  
+
+Running kernel seems to be up-to-date.
+
+The processor microcode seems to be up-to-date.
+
+Restarting services...
+ systemctl restart cron.service multipathd.service packagekit.service polkit.service ssh.service udisks2.service
+
+Service restarts being deferred:
+ systemctl restart ModemManager.service
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+ systemctl restart wpa_supplicant.service
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ sadmin @ session #1: apt[1606], bash[1465], sshd-session[1363],
+  sudo[1603,1605]
+ sadmin @ user manager: (sd-pam)[1371]
+
+No VM guests are running outdated hypervisor (qemu) binaries on this
+ host.
+]3008;end=ea21f643-d293-4483-bb5e-66277078a947;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ [7mcurl -sO https://packages.wazuh.com/4.x/wazuh-install.[27m[7ms[27m[7mh [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl -sO https://packages.wazuh.com/4.x/wazuh-install.sh
+[A
+[?2004l]3008;start=8f819ef4-7879-49f7-8e4e-50c6de6c2dcf;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=8f819ef4-7879-49f7-8e4e-50c6de6c2dcf;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ [7msudo bash ./wazuh-install.sh -a[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo bash ./wazuh-install.sh -a
+[A
+[?2004l]3008;start=82bf386e-07d6-4d4e-9f33-62c232cd4a8b;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\./wazuh-install.sh: line 1: syntax error near unexpected token `newline'
+./wazuh-install.sh: line 1: `<?xml version="1.0" encoding="UTF-8"?>'
+]3008;end=82bf386e-07d6-4d4e-9f33-62c232cd4a8b;exit=failure;status=2\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=975da0ad-1298-47ae-aa4b-8ce1db5a517c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\wazuh-install.sh
+]3008;end=975da0ad-1298-47ae-aa4b-8ce1db5a517c;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ^C[?2004l[?2004h[?2004l
+]3008;end=697b10e8-eaeb-48b7-8a90-252db72eac6e;exit=failure;status=130;signal=SIGINT\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ nano wazuh-install.sh
+[?2004l]3008;start=a7188fe1-8f21-4369-8a20-54fba2a70032;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;30H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                wazuh-install.sh                          [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[32m<[39m(B[m?xml version[32m=(B[0;1m[33m"1.0"[39m(B[m encoding[32m=(B[0;1m[33m"UTF-8"[39m(B[m?[32m>[3d<[39m(B[mError[32m><[39m(B[mCode[32m>[39m(B[mAccessDenied[32m<[39m(B[m/Code[32m><[39m(B[mMessage[32m>[39m(B[mAccess Denied[32m<[39m(B[m/Message[32m><[39m(B[m/Error[32m>[A[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25hE[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25hA[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[31d[K[?12l[?25h[3;20H[?25l[?12l[?25hD[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hM[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25hA[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hD[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25hM[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25hE[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;7m<(B[mrror[32m>[39m(B[m[K[?25l[?12l[?25h[32m<[39m(B[mError[32m><[39m(B[mCode[32m>[39m(B[mAccessDenied[32m<[39m(B[m/Code[32m><[39m(B[mMessage[32m>[39m(B[mAccess Denied[32m<[39m(B[m/Message[32m><[39m(B[m/Error[32m>[4d[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[32d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=a7188fe1-8f21-4369-8a20-54fba2a70032;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ rm wazuh-install.sh
+[?2004l]3008;start=81990d5e-921c-4565-a89d-666abe55ec92;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=81990d5e-921c-4565-a89d-666abe55ec92;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=b62599a8-2904-437f-a339-1d3c106ef2ea;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=b62599a8-2904-437f-a339-1d3c106ef2ea;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ lsrm wazuh-install.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo bash ./wazuh-install.sh -acurl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscurl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cucurl -sO https://packages.wazuh.com/4.x/wazuh-insta
+[1@l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdcurl -sO https://packages.wazuh.com/4.x/wazuh-instal[1@l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cocurl -sO https://packages.wazuh.com/4.x/wazuh-insta[C[1@l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C curl -sO https://packages.wazuh.com/4.x/wazuh-inst[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]3008;start=7689f09c-0435-46ad-b46f-70707857ef12;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=7689f09c-0435-46ad-b46f-70707857ef12;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sudo curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm wazuh-install.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]3008;start=041187db-1036-40f7-a869-833621dd935e;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;17H(B[0;1m[37m[41m[ File 'wazuh-install.sh' is unwritable ][39;49m(B[m[H(B[0;7m  GNU nano 8.7.1                wazuh-install.sh                          [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[32m<[39m(B[m?xml version[32m=(B[0;1m[33m"1.0"[39m(B[m encoding[32m=(B[0;1m[33m"UTF-8"[39m(B[m?[32m>[3d<[39m(B[mError[32m><[39m(B[mCode[32m>[39m(B[mAccessDenied[32m<[39m(B[m/Code[32m><[39m(B[mMessage[32m>[39m(B[mAccess Denied[32m<[39m(B[m/Message[32m><[39m(B[m/Error[32m>[A[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25hE[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25hA[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[31d[K[?12l[?25h[3;20H[?25l[?12l[?25hD[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hM[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25hA[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hD[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25hM[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25hE[?25l[?12l[?25hr[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;7m<(B[mrror[32m>[39m(B[m[K[?25l[?12l[?25h[32m<[39m(B[mError[32m><[39m(B[mCode[32m>[39m(B[mAccessDenied[32m<[39m(B[m/Code[32m><[39m(B[mMessage[32m>[39m(B[mAccess Denied[32m<[39m(B[m/Message[32m><[39m(B[m/Error[32m>[4d[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[32d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=041187db-1036-40f7-a869-833621dd935e;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ nano wazuh-install.shsudo curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm wazuh-install.sh
+[?2004l]3008;start=73b1def3-79ff-4279-984b-2f2fc8dba76e;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\rm: remove write-protected regular file 'wazuh-install.sh'? yes
+]3008;end=73b1def3-79ff-4279-984b-2f2fc8dba76e;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=75d2fae3-55dc-4cda-9aab-29cee4941596;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=75d2fae3-55dc-4cda-9aab-29cee4941596;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ lsrm wazuh-install.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/wazuh-insta[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1/wazuh-inst[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2/wazuh-ins[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]3008;start=d046ef14-db50-499b-a693-430d3955d83c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=d046ef14-db50-499b-a693-430d3955d83c;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm wazuh-install.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]3008;start=f21b10d6-0e82-4e1c-8ee1-64f496a62e05;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;17H(B[0;1m[37m[41m[ File 'wazuh-install.sh' is unwritable ][39;49m(B[m[H(B[0;7m  GNU nano 8.7.1                wazuh-install.sh                          [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[36m#!/bin/bash[4d# Wazuh installer[5d# Copyright (C) 2015, Wazuh Inc.[6d#[7d# This program is a free software; you can redistribute it[8d# and/or modify it under the terms of the GNU General Public[9d# License (version 2) as published by the FSF - Free Software[10d# Foundation.[12d[39m(B[madminpem[32m=(B[0;1m[33m"/etc/wazuh-indexer/certs/admin.pem"[13d[39m(B[madminkey[32m=(B[0;1m[33m"/etc/wazuh-indexer/certs/admin-key.pem"[14d[39m(B[mreadonly wazuh_major[32m=(B[0;1m[33m"4.12"[15d[39m(B[mreadonly wazuh_version[32m=(B[0;1m[33m"4.12.0"[16d[39m(B[mreadonly filebeat_version[32m=(B[0;1m[33m"7.10.2-*"[17d[39m(B[mreadonly wazuh_install_vesion[32m=(B[0;1m[33m"0.1"[18d[39m(B[msource_branch[32m=(B[0;1m[33m"v${wazuh_version}"[19d[39m(B[mlast_stage[32m=(B[0;1m[33m"rc1"[20d[39m(B[mrepogpg[32m=(B[0;1m[33m"https://packages.wazuh.com/key/GPG-KEY-WAZUH"[21d[39m(B[mrepobaseurl[32m=(B[0;1m[33m"https://packages.wazuh.com/4.x"[22d[39m(B[mreporelease[32m=(B[0;1m[33m"stable"[23d[39m(B[mfilebeat_wazuh_module[32m=(B[0;1m[33m"${repobaseurl}/filebeat/wazuh-filebeat-0.4.tar.gz"[24d[39m(B[mbucket[32m=(B[0;1m[33m"packages.wazuh.com"[25d[39m(B[mrepository[32m=(B[0;1m[33m"4.x"[26d[39m(B[mreadonly resources[32m=(B[0;1m[33m"https://${bucket}/${wazuh_major}"[27d[39m(B[mreadonly base_url[32m=(B[0;1m[33m"https://${bucket}/${repository}"[28d[39m(B[mbase_path[32m=(B[0;1m[33m"$(dirname "(B[0m[32m$([39m(B[mreadlink(B[0;1m[35m -f[39m(B[m (B[0;1m[33m"$0"(B[0m[32m)(B[0;1m[33m")"[29d[39m(B[mreadonly base_path[30dconfig_file[32m=(B[0;1m[33m"${base_path}/config.yml"[2d[39m(B[m[?12l[?25h[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=f21b10d6-0e82-4e1c-8ee1-64f496a62e05;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ nano wazuh-install.shsudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm wazuh-install.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pnano wazuh-install.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm wazuh-install.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo bash ./wazuh-install.sh -a
+[?2004l]3008;start=f0c1e35e-99f5-4010-a558-51b99b82ac73;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\07/11/2026 19:10:39 INFO: Starting Wazuh installation assistant. Wazuh version: 4.12.0
+07/11/2026 19:10:39 INFO: Verbose logging redirected to /var/log/wazuh-install.log
+07/11/2026 19:10:40 INFO: The recommended systems are: Red Hat Enterprise Linux 7, 8, 9; CentOS 7, 8; Amazon Linux 2; Ubuntu 16.04, 18.04, 20.04, 22.04.
+07/11/2026 19:10:40 WARNING: The current system does not match with the list of recommended systems. The installation may not work properly.
+07/11/2026 19:10:44 INFO: Verifying that your system meets the recommended minimum hardware requirements.
+07/11/2026 19:10:45 INFO: Wazuh web interface port will be 443.
+07/11/2026 19:10:50 INFO: --- Dependencies ----
+07/11/2026 19:10:50 INFO: Installing apt-transport-https.
+07/11/2026 19:10:53 INFO: Installing debhelper.
+07/11/2026 19:11:25 INFO: Wazuh repository added.
+07/11/2026 19:11:25 INFO: --- Configuration files ---
+07/11/2026 19:11:25 INFO: Generating configuration files.
+07/11/2026 19:11:25 INFO: Generating the root certificate.
+07/11/2026 19:11:25 INFO: Generating Admin certificates.
+07/11/2026 19:11:26 INFO: Generating Wazuh indexer certificates.
+07/11/2026 19:11:26 INFO: Generating Filebeat certificates.
+07/11/2026 19:11:26 INFO: Generating Wazuh dashboard certificates.
+07/11/2026 19:11:26 INFO: Created wazuh-install-files.tar. It contains the Wazuh cluster key, certificates, and passwords necessary for installation.
+07/11/2026 19:11:27 INFO: --- Wazuh indexer ---
+07/11/2026 19:11:27 INFO: Starting Wazuh indexer installation.
+07/11/2026 19:13:36 INFO: Wazuh indexer installation finished.
+07/11/2026 19:13:36 INFO: Wazuh indexer post-install configuration finished.
+07/11/2026 19:13:36 INFO: Starting service wazuh-indexer.
+07/11/2026 19:13:52 INFO: wazuh-indexer service started.
+07/11/2026 19:13:52 INFO: Initializing Wazuh indexer cluster security settings.
+07/11/2026 19:13:57 INFO: Wazuh indexer cluster security configuration initialized.
+07/11/2026 19:13:57 INFO: Wazuh indexer cluster initialized.
+07/11/2026 19:13:57 INFO: --- Wazuh server ---
+07/11/2026 19:13:57 INFO: Starting the Wazuh manager installation.
+07/11/2026 19:18:42 INFO: Wazuh manager installation finished.
+07/11/2026 19:18:43 INFO: Wazuh manager vulnerability detection configuration finished.
+07/11/2026 19:18:43 INFO: Starting service wazuh-manager.
+07/11/2026 19:18:56 INFO: wazuh-manager service started.
+07/11/2026 19:18:56 INFO: Starting Filebeat installation.
+07/11/2026 19:19:05 INFO: Filebeat installation finished.
+07/11/2026 19:19:07 INFO: Filebeat post-install configuration finished.
+07/11/2026 19:19:07 INFO: Starting service filebeat.
+07/11/2026 19:19:08 INFO: filebeat service started.
+07/11/2026 19:19:08 INFO: --- Wazuh dashboard ---
+07/11/2026 19:19:08 INFO: Starting Wazuh dashboard installation.
+07/11/2026 19:21:05 INFO: Wazuh dashboard installation finished.
+07/11/2026 19:21:05 INFO: Wazuh dashboard post-install configuration finished.
+07/11/2026 19:21:05 INFO: Starting service wazuh-dashboard.
+07/11/2026 19:21:06 INFO: wazuh-dashboard service started.
+07/11/2026 19:21:07 INFO: Updating the internal users.
+07/11/2026 19:21:10 INFO: A backup of the internal users has been saved in the /etc/wazuh-indexer/internalusers-backup folder.
+07/11/2026 19:21:22 INFO: The filebeat.yml file has been updated to use the Filebeat Keystore username and password.
+07/11/2026 19:21:59 INFO: Initializing Wazuh dashboard web application.
+07/11/2026 19:22:00 INFO: Wazuh dashboard web application initialized.
+07/11/2026 19:22:00 INFO: --- Summary ---
+07/11/2026 19:22:00 INFO: You can access the web interface https://<wazuh-dashboard-ip>:443
+    User: admin
+    Password: kT6DZsk.jQ6vN*+c21L?ZFJ.mef4IvOp
+07/11/2026 19:22:00 INFO: Installation finished.
+]3008;end=f0c1e35e-99f5-4010-a558-51b99b82ac73;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ^C[?2004l[?2004h[?2004l
+]3008;end=2f8fa917-c00a-46fb-971c-06fa9a001ef0;exit=failure;status=130;signal=SIGINT\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=e3ca7ee8-d02b-4114-95d9-d041a82a1793;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[0m[01;31mwazuh-install-files.tar[0m  wazuh-install.sh
+]3008;end=e3ca7ee8-d02b-4114-95d9-d041a82a1793;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=141af261-3018-4b20-8444-0859ec50c6a9;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[0m[01;31mwazuh-install-files.tar[0m  wazuh-install.sh
+]3008;end=141af261-3018-4b20-8444-0859ec50c6a9;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ cd ..
+[?2004l]3008;start=b040d485-7180-441e-b360-d70166690709;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=b040d485-7180-441e-b360-d70166690709;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home\[?2004hsadmin@lemonrust:/home$ ls
+[?2004l]3008;start=182b7131-8545-40b5-8583-89ee79014a77;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home\[0m[01;34msadmin[0m
+]3008;end=182b7131-8545-40b5-8583-89ee79014a77;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home\[?2004hsadmin@lemonrust:/home$ cd .
+[?2004l]3008;start=4902cbce-afeb-4409-b06a-b5a7b651fe74;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home\]3008;end=4902cbce-afeb-4409-b06a-b5a7b651fe74;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home\[?2004hsadmin@lemonrust:/home$ cd ..
+[?2004l]3008;start=ccabf6a8-7e60-4eea-b607-a2412811b1c1;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home\]3008;end=ccabf6a8-7e60-4eea-b607-a2412811b1c1;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/\[?2004hsadmin@lemonrust:/$ ls
+[?2004l]3008;start=6c5ad07d-87e2-4250-a20f-b73f9a3785da;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/\[0m[01;36mbin[0m    [01;34mdev[0m   [01;36mlib[0m         [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m  swap.img  [01;34musr[0m
+[01;34mboot[0m   [01;34metc[0m   [01;36mlib64[0m       [01;34mmnt[0m    [01;34mroot[0m  [01;34msnap[0m  [01;34msys[0m       [01;34mvar[0m
+[01;34mcdrom[0m  [01;34mhome[0m  [01;34mlost+found[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m
+]3008;end=6c5ad07d-87e2-4250-a20f-b73f9a3785da;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/\[?2004hsadmin@lemonrust:/$ cd etc
+[?2004l]3008;start=2fb16034-fd6f-468a-b695-b01308785b21;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/\]3008;end=2fb16034-fd6f-468a-b695-b01308785b21;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/etc\[?2004hsadmin@lemonrust:/etc$ ls
+[?2004l]3008;start=ba046057-ef9c-453f-a472-8d02d657ee50;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/etc\[0m[01;34mModemManager[0m                   [01;34mifplugd[0m              [01;34mpython3[0m
+[01;34mPackageKit[0m                     [01;34minit.d[0m               [01;34mpython3.14[0m
+[01;34mUPower[0m                         [01;34minitramfs-tools[0m      [01;34mrc0.d[0m
+[01;34mX11[0m                            inputrc              [01;34mrc1.d[0m
+adduser.conf                   [01;34miscsi[0m                [01;34mrc2.d[0m
+[01;34malternatives[0m                   issue                [01;34mrc3.d[0m
+[01;34mapparmor[0m                       issue.net            [01;34mrc4.d[0m
+[01;34mapparmor.d[0m                     [01;34mkdump[0m                [01;34mrc5.d[0m
+[01;34mapport[0m                         [01;34mkernel[0m               [01;34mrc6.d[0m
+[01;34mapt[0m                            [01;34mlandscape[0m            [01;34mrcS.d[0m
+bash.bashrc                    ld.so.cache          [01;36mresolv.conf[0m
+bash_completion                ld.so.conf           [01;36mrmt[0m
+[01;34mbash_completion.d[0m              [01;34mld.so.conf.d[0m         rpc
+bindresvport.blacklist         [01;34mldap[0m                 rsyslog.conf
+[01;34mbinfmt.d[0m                       legal                [01;34mrsyslog.d[0m
+[01;34mca-certificates[0m                libaudit.conf        screenrc
+ca-certificates.conf           [01;34mlibblockdev[0m          [01;34msecurity[0m
+[38;5;8mca-certificates.conf.dpkg-old[0m  [01;34mlibibverbs.d[0m         [01;34mselinux[0m
+[01;34mchrony[0m                         [01;34mlibnl-3[0m              [01;34msensors.d[0m
+[01;34mcloud[0m                          locale.conf          sensors3.conf
+[01;34mconsole-setup[0m                  locale.gen           services
+[01;34mcredstore[0m                      [01;36mlocaltime[0m            [01;34msgml[0m
+[01;34mcredstore.encrypted[0m            [01;34mlogcheck[0m             shadow
+[01;34mcron.d[0m                         login.defs           shadow-
+[01;34mcron.daily[0m                     logrotate.conf       shells
+[01;34mcron.hourly[0m                    [01;34mlogrotate.d[0m          [01;34mskel[0m
+[01;34mcron.monthly[0m                   lsb-release          [01;34msos[0m
+[01;34mcron.weekly[0m                    [01;34mlvm[0m                  [01;34mssh[0m
+[01;34mcron.yearly[0m                    machine-id           [01;34mssl[0m
+crontab                        magic                subgid
+crypttab                       magic.mime           subgid-
+[01;34mdbus-1[0m                         manpath.config       subuid
+debconf.conf                   [01;34mmdadm[0m                subuid-
+debian_version                 mime.types           sudo.conf
+[01;34mdebuginfod[0m                     mke2fs.conf          sudo_logsrvd.conf
+[01;34mdefault[0m                        [01;34mmodprobe.d[0m           sudoers
+deluser.conf                   modules              [01;34msudoers.d[0m
+[01;34mdepmod.d[0m                       [01;34mmodules-load.d[0m       [01;34msupercat[0m
+[01;34mdhcp[0m                           [01;36mmtab[0m                 [01;34msysctl.d[0m
+dhcpcd.conf                    [01;34mmultipath[0m            [01;34msysstat[0m
+[01;34mdpkg[0m                           multipath.conf       [01;34msystemd[0m
+dracut.conf                    nanorc               [01;34mterminfo[0m
+[01;34mdracut.conf.d[0m                  [01;34mneedrestart[0m          [01;34mthermald[0m
+e2scrub.conf                   netconfig            [01;34mtmpfiles.d[0m
+[01;34memacs[0m                          [01;34mnetplan[0m              [01;34mtpm2-tss[0m
+environment                    [01;34mnetwork[0m              [01;34mubuntu-advantage[0m
+ethertypes                     [01;34mnetworkd-dispatcher[0m  ucf.conf
+[01;34mfilebeat[0m                       networks             [01;34mudev[0m
+fstab                          [01;34mnewt[0m                 [01;34mudisks2[0m
+fuse.conf                      [01;32mnftables.conf[0m        [01;34mufw[0m
+[01;34mfwupd[0m                          nsswitch.conf        [01;34mupdate-manager[0m
+gai.conf                       [01;34mopt[0m                  [01;34mupdate-motd.d[0m
+[01;34mgnutls[0m                         [01;36mos-release[0m           [01;34mupdate-notifier[0m
+gprofng.rc                     overlayroot.conf     usb_modeswitch.conf
+[01;34mgroff[0m                          pam.conf             [01;34musb_modeswitch.d[0m
+group                          [01;34mpam.d[0m                [01;36mvconsole.conf[0m
+group-                         passwd               [01;34mvim[0m
+[01;34mgrub.d[0m                         passwd-              [01;34mvmware-tools[0m
+gshadow                        [01;34mperl[0m                 [01;36mvtrgb[0m
+gshadow-                       [01;34mpki[0m                  [01;34mwazuh-dashboard[0m
+[01;34mgss[0m                            [01;34mplymouth[0m             [01;34mwazuh-indexer[0m
+hdparm.conf                    [01;34mpm[0m                   wgetrc
+host.conf                      [01;34mpolkit-1[0m             [01;34mwpa_supplicant[0m
+hostname                       [01;34mppp[0m                  xattr.conf
+hosts                          profile              [01;34mxdg[0m
+hosts.allow                    [01;34mprofile.d[0m            [01;34mxml[0m
+hosts.deny                     protocols            zsh_command_not_found
+]3008;end=ba046057-ef9c-453f-a472-8d02d657ee50;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/etc\[?2004hsadmin@lemonrust:/etc$ cd [Kw[K/waz[K[K[K[K wazuh-dashboard
+[?2004l]3008;start=4b0904e8-d77a-4a56-ade6-2c63910048be;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/etc\-bash: cd: wazuh-dashboard: Permission denied
+]3008;end=4b0904e8-d77a-4a56-ade6-2c63910048be;exit=failure;status=1\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/etc\[?2004hsadmin@lemonrust:/etc$ sudo cd waze[Kuh-s[Kdasboard
+[?2004l]3008;start=4aac5686-74b7-4300-90e7-4b6cd2b86878;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/etc\[sudo: authenticate] Password: ****    
+sudo: 'cd': command not found
+]3008;end=4aac5686-74b7-4300-90e7-4b6cd2b86878;exit=failure;status=1\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/etc\[?2004hsadmin@lemonrust:/etc$ sudo cd wazuh-dasboard[1@h
+[?2004l]3008;start=fe6072dd-e32c-4a7b-9cb9-f709125b082c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/etc\sudo: 'cd': command not found
+]3008;end=fe6072dd-e32c-4a7b-9cb9-f709125b082c;exit=failure;status=1\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/etc\[?2004hsadmin@lemonrust:/etc$ cd
+[?2004l]3008;start=d0db0403-a933-4f06-a515-8f72b30fea48;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/etc\]3008;end=d0db0403-a933-4f06-a515-8f72b30fea48;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ nano ^[[200~/etc/wazuh-dashboard/opensearch_dashboards.yml~[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/wazuh-dashboard/opensearch_dashboards.y[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/wazuh-dashboard/opensearch_dashboards.ym[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/wazuh-dashboard/opensearch_dashboards.yml[1P~[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/wazuh-dashboard/opensearch_dashboards.yml~[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/wazuh-dashboard/opensearch_dashboards.yml~ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l]3008;start=fcffb647-4b80-48a2-9c47-302fc8afb762;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;13H(B[0;1m[37m[41m[ Path '/etc/wazuh-dashboard' is not accessible ][39;49m(B[m[H(B[0;7m  GNU nano 8.7.1 /etc/wazuh-dashboard/opensearch_dashboards.yml           [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=fcffb647-4b80-48a2-9c47-302fc8afb762;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sud[K[K[Knano /etc/wazuh-dashboard/opensearch_dashboards.yml[1@s[1@udnano /etc/wazuh-dashboard/opensearch_dashboards.yml [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Conano /etc/wazuh-dashboard/opensearch_dashboards.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C nano /etc/wazuh-dashboard/opensearch_dashboards.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]3008;start=65f39c4b-9bb4-4f70-9d7e-135c769cb323;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;29H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 8.7.1 /etc/wazuh-dashboard/opensearch_dashboards.yml           [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[92mserver.host[39m: (B[m0.0.0.0[3d[92mopensearch.hosts[39m: (B[mhttps://127.0.0.1:9200[4d[92mserver.port[39m: [95m443[5d[92mopensearch.ssl.verificationMode[39m: (B[mcertificate[6d(B[0m[3m[36m# opensearch.username: kibanaserver[7d# opensearch.password: kibanaserver[8d(B[0m[23m[92mopensearch.requestHeadersAllowlist[39m: [33m[[95m"securitytenant"[39m(B[m,[95m"Authorization"[33m][9d[92mopensearch_security.multitenancy.enabled[39m: [95mfalse[10d[92mopensearch_security.readonly_mode.roles[39m: [33m[[95m"kibana_read_only"[33m][11d[92mserver.ssl.enabled[39m: [95mtrue[12d[92mserver.ssl.key[39m: [95m"/etc/wazuh-dashboard/certs/wazuh-dashboard-key.pem"[13d[92mserver.ssl.certificate[39m: [95m"/etc/wazuh-dashboard/certs/wazuh-dashboard.pem"[14d[92mopensearch.ssl.certificateAuthorities[39m: [33m[[95m"/etc/wazuh-dashboard/certs/root-[39m(B[0;7m>[15;1H(B[0m[92muiSettings.overrides.defaultRoute[39m: (B[m/app/wz-home[16d[92mopensearch_security.cookie.secure[39m: [95mtrue[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[31d[K[?12l[?25h[3;18H[?25l[?12l[?25h[C[?25l[?12l[?25hh[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[?12l[?25hp[?25l[?12l[?25hs[?25l[?12l[?25h:[?25l[?12l[?25h/[?25l[?12l[?25h/[?25l[?12l[?25h1[?25l[?12l[?25h2[?25l[?12l[?25h7[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h.[?25l[?12l[?25h1[?25l[?12l[?25h:[?25l[?12l[?25h9[?25l[?12l[?25h2[?25l[?12l[?25h0[?25l[?12l[?25h0[?25l[?12l[?25h[4d[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[3;41H[?25l[?12l[?25h[?25l[32d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=65f39c4b-9bb4-4f70-9d7e-135c769cb323;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=9bae71ec-e6fe-4b33-bec3-f4f6a0e3a832;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[0m[01;31mwazuh-install-files.tar[0m  wazuh-install.sh
+]3008;end=9bae71ec-e6fe-4b33-bec3-f4f6a0e3a832;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ [7msudo tar -O -xvf wazuh-install-files.tar wazuh-install[27m[7m-[27m[7mfiles/wazuh-passwords.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt
+[A
+[?2004l]3008;start=606c220f-b4db-4f57-aff1-b7a3c1343ff3;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\wazuh-install-files/wazuh-passwords.txt
+# Admin user for the web user interface and Wazuh indexer. Use this user to log in to Wazuh dashboard
+  indexer_username: 'admin'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# Anomaly detection user for the web user interface
+  indexer_username: 'anomalyadmin'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# Wazuh dashboard user for establishing the connection with Wazuh indexer
+  indexer_username: 'kibanaserver'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# Regular Dashboard user, only has read permissions to all indices and all permissions on the .kibana index
+  indexer_username: 'kibanaro'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# Filebeat user for CRUD operations on Wazuh indices
+  indexer_username: 'logstash'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# User with READ access to all indices
+  indexer_username: 'readall'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# User with permissions to perform snapshot and restore operations
+  indexer_username: 'snapshotrestore'
+  indexer_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# Password for wazuh API user
+  api_username: 'wazuh'
+  api_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# Password for wazuh-wui API user
+  api_username: 'wazuh-wui'
+  api_password: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+]3008;end=606c220f-b4db-4f57-aff1-b7a3c1343ff3;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sudo systemctl status wazuh-s[Kdashboard
+[?2004l]3008;start=e03b0cce-4514-4c7c-b074-a9204e0b6d69;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?1h=[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[7mlines 1-21/21 (END)[27m[K[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[0;1;32m[0mhboard[m
+]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\tem/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m]8;;\
+[0;1;32m[0mat 2026-11-07 19:21:49 UTC; 8min ago[m
+f8089f14[m
+[m
+[m
+[m
+[m
+board.service[m
+[0;38:5:245m-dashboard/node/bin/node --no-warnings --max-http-header-size=65536 --unh[m[7m>[27m
+[m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:57Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:57Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:58Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:58Z","tag[m[7m>[27m
+dashboards[70460]: [agentkeepalive:deprecated] options.freeSocketKeepAliv[m[7m>[27m
+dashboards[70460]: {"type":"response","@timestamp":"2026-11-07T19:21:59Z"[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:25:00Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:25:00Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"error","@timestamp":"2026-11-07T19:28:47Z","t[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:30:00Z","tag[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\]8;;\[0;1;32m[0m preset: [0;1;32menabled[0m)[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;38:5:245ms --max-http-header-size=65536 --unhandled-rejections=warn /usr/share/waz[m[7m>[27m
+[m
+mestamp":"2026-11-07T19:21:57Z","tags":["info","plugins","wazuh","monitor[m[7m>[27m
+mestamp":"2026-11-07T19:21:57Z","tags":["listening","info"],"pid":70460,"[m[7m>[27m
+mestamp":"2026-11-07T19:21:58Z","tags":["info","http","server","OpenSearc[m[7m>[27m
+mestamp":"2026-11-07T19:21:58Z","tags":["info","plugins","wazuh","monitor[m[7m>[27m
+precated] options.freeSocketKeepAliveTimeout is deprecated, please use op[m[7m>[27m
+,"@timestamp":"2026-11-07T19:21:59Z","tags":[],"pid":70460,"method":"get"[m[7m>[27m
+mestamp":"2026-11-07T19:25:00Z","tags":["error","opensearch","data"],"pid[m[7m>[27m
+mestamp":"2026-11-07T19:25:00Z","tags":["info","plugins","wazuh","cron-sc[m[7m>[27m
+timestamp":"2026-11-07T19:28:47Z","tags":["connection","client","error"],[m[7m>[27m
+mestamp":"2026-11-07T19:30:00Z","tags":["info","plugins","wazuh","monitor[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;38:5:245mndled-rejections=warn /usr/share/wazuh-dashboard/src/cli/dist[0m[m
+[m
+":["info","plugins","wazuh","monitoring"],"pid":70460,"message":"Updated [m[7m>[27m
+":["listening","info"],"pid":70460,"message":"Server running at https://0[m[7m>[27m
+":["info","http","server","OpenSearchDashboards"],"pid":70460,"message":"[m[7m>[27m
+":["info","plugins","wazuh","monitoring"],"pid":70460,"message":"Settings[m[7m>[27m
+Timeout is deprecated, please use options.freeSocketTimeout instead[m
+"tags":[],"pid":70460,"method":"get","statusCode":200,"req":{"url":"/stat[m[7m>[27m
+":["error","opensearch","data"],"pid":70460,"message":"[resource_already_[m[7m>[27m
+":["info","plugins","wazuh","cron-scheduler"],"pid":70460,"message":"wazu[m[7m>[27m
+gs":["connection","client","error"],"pid":70460,"level":"error","error":{[m[7m>[27m
+":["info","plugins","wazuh","monitoring"],"pid":70460,"message":"Settings[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;38:5:245mh-dashboard/src/cli/dist[0m[m
+[m
+ng"],"pid":70460,"message":"Updated the wazuh-agent template"}[m
+essage":"Server running at https://0.0.0.0:443"}[m
+Dashboards"],"pid":70460,"message":"http server running at https://0.0.0.[m[7m>[27m
+ng"],"pid":70460,"message":"Settings added to wazuh-monitoring-2026.45w i[m[7m>[27m
+ions.freeSocketTimeout instead[m
+"statusCode":200,"req":{"url":"/status","method":"get","headers":{"host":[m[7m>[27m
+:70460,"message":"[resource_already_exists_exception]: index [wazuh-stati[m[7m>[27m
+eduler"],"pid":70460,"message":"wazuh-statistics-2026.45w index created"}[m
+pid":70460,"level":"error","error":{"message":"TLS handshake timeout","na[m[7m>[27m
+ng"],"pid":70460,"message":"Settings added to wazuh-monitoring-2026.45w i[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+he wazuh-agent template"}[m
+0.0.0:443"}[m
+ttp server running at https://0.0.0.0:443"}[m
+added to wazuh-monitoring-2026.45w index"}[m
+[m
+s","method":"get","headers":{"host":"localhost","user-agent":"curl/8.18.0[m[7m>[27m
+xists_exception]: index [wazuh-statistics-2026.45w/W8MIc4svQLacRkZ-8Tcosw[m[7m>[27m
+-statistics-2026.45w index created"}[m
+message":"TLS handshake timeout","name":"Error","stack":"Error: TLS hands[m[7m>[27m
+added to wazuh-monitoring-2026.45w index"}[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+:443"}[m
+dex"}[m
+[m
+localhost","user-agent":"curl/8.18.0","accept":"*/*"},"remoteAddress":"12[m[7m>[27m
+tics-2026.45w/W8MIc4svQLacRkZ-8Tcosw] already exists"}[m
+[m
+e":"Error","stack":"Error: TLS handshake timeout\n    at new NodeError (n[m[7m>[27m
+dex"}[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+,"accept":"*/*"},"remoteAddress":"127.0.0.1","userAgent":"curl/8.18.0"},"[m[7m>[27m
+ already exists"}[m
+[m
+ake timeout\n    at new NodeError (node:internal/errors:405:5)\n    at TL[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+.0.0.1","userAgent":"curl/8.18.0"},"res":{"statusCode":200,"responseTime"[m[7m>[27m
+[m
+[m
+de:internal/errors:405:5)\n    at TLSSocket._handleTimeout (node:_tls_wra[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+es":{"statusCode":200,"responseTime":354,"contentLength":9},"message":"GE[m[7m>[27m
+[m
+[m
+Socket._handleTimeout (node:_tls_wrap:1020:22)\n    at Object.onceWrapper[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+354,"contentLength":9},"message":"GET /status 200 354ms - 9.0B"}[m
+[m
+[m
+:1020:22)\n    at Object.onceWrapper (node:events:631:28)\n    at TLSSock[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+ /status 200 354ms - 9.0B"}[m
+[m
+[m
+(node:events:631:28)\n    at TLSSocket.emit (node:events:517:28)\n    at [m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t.emit (node:events:517:28)\n    at TLSSocket.emit (node:domain:489:12)\n[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+LSSocket.emit (node:domain:489:12)\n    at TLSSocket.Socket._onTimeout (n[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+   at TLSSocket.Socket._onTimeout (node:net:598:8)\n    at listOnTimeout [m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+de:net:598:8)\n    at listOnTimeout (node:internal/timers:569:17)\n    at[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+node:internal/timers:569:17)\n    at processTimers (node:internal/timers:[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+processTimers (node:internal/timers:512:7)","code":"ERR_TLS_HANDSHAKE_TIM[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+12:7)","code":"ERR_TLS_HANDSHAKE_TIMEOUT"},"message":"TLS handshake timeo[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+OUT"},"message":"TLS handshake timeout"}[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t"}[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K[K[7mlines 1-21/21 (END)[27m[K[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t"}[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+OUT"},"message":"TLS handshake timeout"}[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+12:7)","code":"ERR_TLS_HANDSHAKE_TIMEOUT"},"message":"TLS handshake timeo[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+processTimers (node:internal/timers:512:7)","code":"ERR_TLS_HANDSHAKE_TIM[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+node:internal/timers:569:17)\n    at processTimers (node:internal/timers:[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+de:net:598:8)\n    at listOnTimeout (node:internal/timers:569:17)\n    at[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+   at TLSSocket.Socket._onTimeout (node:net:598:8)\n    at listOnTimeout [m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+LSSocket.emit (node:domain:489:12)\n    at TLSSocket.Socket._onTimeout (n[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t.emit (node:events:517:28)\n    at TLSSocket.emit (node:domain:489:12)\n[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+ /status 200 354ms - 9.0B"}[m
+[m
+[m
+(node:events:631:28)\n    at TLSSocket.emit (node:events:517:28)\n    at [m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+354,"contentLength":9},"message":"GET /status 200 354ms - 9.0B"}[m
+[m
+[m
+:1020:22)\n    at Object.onceWrapper (node:events:631:28)\n    at TLSSock[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+es":{"statusCode":200,"responseTime":354,"contentLength":9},"message":"GE[m[7m>[27m
+[m
+[m
+Socket._handleTimeout (node:_tls_wrap:1020:22)\n    at Object.onceWrapper[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+.0.0.1","userAgent":"curl/8.18.0"},"res":{"statusCode":200,"responseTime"[m[7m>[27m
+[m
+[m
+de:internal/errors:405:5)\n    at TLSSocket._handleTimeout (node:_tls_wra[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+,"accept":"*/*"},"remoteAddress":"127.0.0.1","userAgent":"curl/8.18.0"},"[m[7m>[27m
+ already exists"}[m
+[m
+ake timeout\n    at new NodeError (node:internal/errors:405:5)\n    at TL[m[7m>[27m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+:443"}[m
+dex"}[m
+[m
+localhost","user-agent":"curl/8.18.0","accept":"*/*"},"remoteAddress":"12[m[7m>[27m
+tics-2026.45w/W8MIc4svQLacRkZ-8Tcosw] already exists"}[m
+[m
+e":"Error","stack":"Error: TLS handshake timeout\n    at new NodeError (n[m[7m>[27m
+dex"}[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+he wazuh-agent template"}[m
+0.0.0:443"}[m
+ttp server running at https://0.0.0.0:443"}[m
+added to wazuh-monitoring-2026.45w index"}[m
+[m
+s","method":"get","headers":{"host":"localhost","user-agent":"curl/8.18.0[m[7m>[27m
+xists_exception]: index [wazuh-statistics-2026.45w/W8MIc4svQLacRkZ-8Tcosw[m[7m>[27m
+-statistics-2026.45w index created"}[m
+message":"TLS handshake timeout","name":"Error","stack":"Error: TLS hands[m[7m>[27m
+added to wazuh-monitoring-2026.45w index"}[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;38:5:245mh-dashboard/src/cli/dist[0m[m
+[m
+ng"],"pid":70460,"message":"Updated the wazuh-agent template"}[m
+essage":"Server running at https://0.0.0.0:443"}[m
+Dashboards"],"pid":70460,"message":"http server running at https://0.0.0.[m[7m>[27m
+ng"],"pid":70460,"message":"Settings added to wazuh-monitoring-2026.45w i[m[7m>[27m
+ions.freeSocketTimeout instead[m
+"statusCode":200,"req":{"url":"/status","method":"get","headers":{"host":[m[7m>[27m
+:70460,"message":"[resource_already_exists_exception]: index [wazuh-stati[m[7m>[27m
+eduler"],"pid":70460,"message":"wazuh-statistics-2026.45w index created"}[m
+pid":70460,"level":"error","error":{"message":"TLS handshake timeout","na[m[7m>[27m
+ng"],"pid":70460,"message":"Settings added to wazuh-monitoring-2026.45w i[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;38:5:245mndled-rejections=warn /usr/share/wazuh-dashboard/src/cli/dist[0m[m
+[m
+":["info","plugins","wazuh","monitoring"],"pid":70460,"message":"Updated [m[7m>[27m
+":["listening","info"],"pid":70460,"message":"Server running at https://0[m[7m>[27m
+":["info","http","server","OpenSearchDashboards"],"pid":70460,"message":"[m[7m>[27m
+":["info","plugins","wazuh","monitoring"],"pid":70460,"message":"Settings[m[7m>[27m
+Timeout is deprecated, please use options.freeSocketTimeout instead[m
+"tags":[],"pid":70460,"method":"get","statusCode":200,"req":{"url":"/stat[m[7m>[27m
+":["error","opensearch","data"],"pid":70460,"message":"[resource_already_[m[7m>[27m
+":["info","plugins","wazuh","cron-scheduler"],"pid":70460,"message":"wazu[m[7m>[27m
+gs":["connection","client","error"],"pid":70460,"level":"error","error":{[m[7m>[27m
+":["info","plugins","wazuh","monitoring"],"pid":70460,"message":"Settings[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\]8;;\[0;1;32m[0m preset: [0;1;32menabled[0m)[m]8;;\
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;38:5:245ms --max-http-header-size=65536 --unhandled-rejections=warn /usr/share/waz[m[7m>[27m
+[m
+mestamp":"2026-11-07T19:21:57Z","tags":["info","plugins","wazuh","monitor[m[7m>[27m
+mestamp":"2026-11-07T19:21:57Z","tags":["listening","info"],"pid":70460,"[m[7m>[27m
+mestamp":"2026-11-07T19:21:58Z","tags":["info","http","server","OpenSearc[m[7m>[27m
+mestamp":"2026-11-07T19:21:58Z","tags":["info","plugins","wazuh","monitor[m[7m>[27m
+precated] options.freeSocketKeepAliveTimeout is deprecated, please use op[m[7m>[27m
+,"@timestamp":"2026-11-07T19:21:59Z","tags":[],"pid":70460,"method":"get"[m[7m>[27m
+mestamp":"2026-11-07T19:25:00Z","tags":["error","opensearch","data"],"pid[m[7m>[27m
+mestamp":"2026-11-07T19:25:00Z","tags":["info","plugins","wazuh","cron-sc[m[7m>[27m
+timestamp":"2026-11-07T19:28:47Z","tags":["connection","client","error"],[m[7m>[27m
+mestamp":"2026-11-07T19:30:00Z","tags":["info","plugins","wazuh","monitor[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m[0mhboard[m
+]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\tem/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m]8;;\
+[0;1;32m[0mat 2026-11-07 19:21:49 UTC; 8min ago[m
+f8089f14[m
+[m
+[m
+[m
+[m
+board.service[m
+[0;38:5:245m-dashboard/node/bin/node --no-warnings --max-http-header-size=65536 --unh[m[7m>[27m
+[m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:57Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:57Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:58Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:21:58Z","tag[m[7m>[27m
+dashboards[70460]: [agentkeepalive:deprecated] options.freeSocketKeepAliv[m[7m>[27m
+dashboards[70460]: {"type":"response","@timestamp":"2026-11-07T19:21:59Z"[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:25:00Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:25:00Z","tag[m[7m>[27m
+dashboards[70460]: {"type":"error","@timestamp":"2026-11-07T19:28:47Z","t[m[7m>[27m
+dashboards[70460]: {"type":"log","@timestamp":"2026-11-07T19:30:00Z","tag[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m wazuh-dashboard.service - wazuh-dashboard[m
+     Loaded: loaded (]8;;file://lemonrust/etc/systemd/system/wazuh-dashboard.service\/etc/systemd/system/wazuh-dashboard.service]8;;\; [0;1;32menabled[0m[m]8;;\[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2026-11-07 19:21:49 UTC; 8min ago[m
+ Invocation: 8f259be324714f50a2988505f8089f14[m
+   Main PID: 70460 (node)[m
+      Tasks: 11[0;38:5:245m (limit: 6070)[0m[m
+     Memory: 188.2M (peak: 302.4M)[m
+        CPU: 11.321s[m
+     CGroup: /system.slice/wazuh-dashboard.service[m
+             └─[0;38:5:245m70460 /usr/share/wazuh-dashboard/node/bin/node --no-warnin[m[7m>[27m
+[m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:57 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:58 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:21:59 lemonrust opensearch-dashboards[70460]: [agentkeepalive:d[m[7m>[27m
+Nov 07 19:22:00 lemonrust opensearch-dashboards[70460]: {"type":"response[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:25:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+Nov 07 19:28:47 lemonrust opensearch-dashboards[70460]: {"type":"error","[m[7m>[27m
+Nov 07 19:30:00 lemonrust opensearch-dashboards[70460]: {"type":"log","@t[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-21/21 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-21/21 (END)[27m[K[K[?1l>
+]3008;end=e03b0cce-4514-4c7c-b074-a9204e0b6d69;exit=failure;status=130;signal=SIGINT\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sudo systemctl status wazuh-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn[Knano [7m/etc/wazuh-dashboard/opensearch_dashboards.yml[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/etc/wazuh-dashboard/opensearch_dashboards.yml
+[?2004l]3008;start=c2ecb567-c86d-4807-832b-7ec83ef5cde5;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;13H(B[0;1m[37m[41m[ Path '/etc/wazuh-dashboard' is not accessible ][39;49m(B[m[H(B[0;7m  GNU nano 8.7.1 /etc/wazuh-dashboard/opensearch_dashboards.yml           [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[31;10H(B[0;7m[ line  1/1 (100%), col  1/ 1 (100%), char  0/0 ( 0%) ](B[m[?12l[?25h[2d[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=c2ecb567-c86d-4807-832b-7ec83ef5cde5;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sudo[K[K[K[Knano /etc/wazuh-dashboard/opensearch_dashboards.yml[1@d[1@u[1P[1P[1@s[1@udnano /etc/wazuh-dashboard/opensearch_dashboards.yml [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Conano /etc/wazuh-dashboard/opensearch_dashboards.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C nano /etc/wazuh-dashboard/opensearch_dashboards.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]3008;start=5a09be36-ad27-4d0c-963b-667a130dbdc3;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;29H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 8.7.1 /etc/wazuh-dashboard/opensearch_dashboards.yml           [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[92mserver.host[39m: (B[m0.0.0.0[3d[92mopensearch.hosts[39m: (B[mhttps://127.0.0.1:9200[4d[92mserver.port[39m: [95m443[5d[92mopensearch.ssl.verificationMode[39m: (B[mcertificate[6d(B[0m[3m[36m# opensearch.username: kibanaserver[7d# opensearch.password: kibanaserver[8d(B[0m[23m[92mopensearch.requestHeadersAllowlist[39m: [33m[[95m"securitytenant"[39m(B[m,[95m"Authorization"[33m][9d[92mopensearch_security.multitenancy.enabled[39m: [95mfalse[10d[92mopensearch_security.readonly_mode.roles[39m: [33m[[95m"kibana_read_only"[33m][11d[92mserver.ssl.enabled[39m: [95mtrue[12d[92mserver.ssl.key[39m: [95m"/etc/wazuh-dashboard/certs/wazuh-dashboard-key.pem"[13d[92mserver.ssl.certificate[39m: [95m"/etc/wazuh-dashboard/certs/wazuh-dashboard.pem"[14d[92mopensearch.ssl.certificateAuthorities[39m: [33m[[95m"/etc/wazuh-dashboard/certs/root-[39m(B[0;7m>[15;1H(B[0m[92muiSettings.overrides.defaultRoute[39m: (B[m/app/wz-home[16d[92mopensearch_security.cookie.secure[39m: [95mtrue[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[31d[K[?12l[?25h[3;18H[?25l[?12l[?25h[C[?25l[?12l[?25hh[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[?12l[?25hp[?25l[?12l[?25hs[?25l[?12l[?25h:[?25l[?12l[?25h/[?25l[?12l[?25h/[?25l[?12l[?25h1[?25l[?12l[?25h2[?25l[?12l[?25h7[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h.[?25l[?12l[?25h1[?25l[?12l[?25h:[?25l[?12l[?25h9[?25l[?12l[?25h2[?25l[?12l[?25h0[?25l[?12l[?25h0[?25l[?12l[?25h[4d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h0[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hh[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[?12l[?25hp[?25l[?12l[?25hs[?25l[?12l[?25h:[?25l[?12l[?25h/[?25l[?12l[?25h/[?25l[?12l[?25h1[?25l[?12l[?25h2[?25l[?12l[?25h7[?25l[1;65H(B[0;7m*[73G(B[m[?12l[?25h[3;29H[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h1.0.0.1:9200[3;28H[?25l[?12l[?25h9.0.0.1:9200[3;29H[?25l[?12l[?25h2.0.0.1:9200[3;30H[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h[1P[?25l[?12l[?25h1.0.1:9200[3;32H[?25l[?12l[?25h6.0.1:9200[3;33H[?25l[?12l[?25h8.0.1:9200[3;34H[?25l[?12l[?25h.[?25l[?12l[?25h0[?25l[?12l[?25h[1P[?25l[?12l[?25h5.1:9200[36G[?25l[?12l[?25h[1P[?25l[?12l[?25h6.1:9200[36G[?25l[?12l[?25h8.1:9200[37G[?25l[?12l[?25h.[?25l[?12l[?25h1[?25l[?12l[?25h:9200[K[38G[?25l[?12l[?25h5:9200[39G[?25l[?12l[?25h9:9200[40G[?25l[?12l[?25h:[?25l[?12l[?25h9[?25l[?12l[?25h2[?25l[?12l[?25h[4;17H[?25l[?12l[?25h[5;43H[?25l[?12l[?25h[6;36H[?25l[?12l[?25h[5;43H[?25l[?12l[?25h[4;17H[?25l[?12l[?25h[3;43H[?25l[?12l[?25h0[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[3;25H[92m//192.168.68.59[C[39m(B[m[K[?25l[?12l[?25h[3;25H//192.168.68.59:4[?25l[?12l[?25h4[?25l[?12l[?25h3[?25l[31d(B[0;7mSave modified buffer?                                                     [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[31;23H[?12l[?25h[?25l[32d(B[0;7m^G(B[m Help[15G(B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup Fil(B[0;7m^T(B[m Browse[33d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^Q(B[m Discard buffer[32;66H[A(B[0;7mWrite to File: /etc/wazuh-dashboard/opensearch_dashboards.yml(B[m[?12l[?25h[?25l[31;30H[1K (B[0;7m[ Writing... ](B[m[K[1;65H(B[0;7m [73G(B[m[31;29H(B[0;7m[ Wrote 15 lines ](B[m[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=5a09be36-ad27-4d0c-963b-667a130dbdc3;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ [7msudo systemctl daemon-reload[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl daemon-reload[7msudo systemctl daemon-relo[27m[7ma[27m[7md[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /etc/wazuh-dashboard/opensearch_dashboards.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl daemon-reloadsudo systemctl daemon-reload[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l]3008;start=a4e75606-d670-4001-abba-495d0ce0f6ee;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=a4e75606-d670-4001-abba-495d0ce0f6ee;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ^[[200~sudo systemctl restart wazuh-dashboard~[K[1P[1P[1P[1P[1P[2P
+[?2004l]3008;start=6134729d-60d2-4912-80b9-f8f1b9408f39;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=6134729d-60d2-4912-80b9-f8f1b9408f39;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ sudo poweroff
+[?2004l]3008;start=a42a521b-c2fa-4c8e-a03a-5eacc57c7ab7;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=command;cwd=/home/sadmin\]3008;end=a42a521b-c2fa-4c8e-a03a-5eacc57c7ab7;exit=success\]3008;start=b3b2cf92-a9d0-4395-a0aa-c06927c7de7c;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=49a16cba-c78d-4d3f-baec-500864615454;pid=00000000000000001465;type=shell;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ Read from remote host 192.168.68.59: Connection reset by peer
+Connection to 192.168.68.59 closed.
+client_loop: send disconnect: Broken pipe
+]3008;end=ad60dc28-dc0c-4dea-ac24-e103f362e196;exit=failure;status=255\]3008;start=2b772290-e9f9-414d-a6cc-f33ec19cad0c;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=0a4bb9cc-e976-4c44-8890-462525975c71;pid=3596;cwd=/home/jimmyy/Documents/wazuh/desktop-wazuh\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/wazuh/desktop-wazuh[0m$ [?2004l
+exit
+
+Script done on 2026-11-08 08:35:58+13:00 [COMMAND_EXIT_CODE="255"]

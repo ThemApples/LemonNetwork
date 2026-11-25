@@ -1,0 +1,84 @@
+Script started on 2026-11-16 17:49:13+13:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="74" LINES="33"]
+]3008;start=1ebc2e85-e39f-46af-80bf-4f8ff8355270;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=3250;cwd=/home/jimmyy/Documents/victorialogs\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/victorialogs[0m$ ssh sadmin@192.168.68.59
+[?2004l]3008;start=ae104d73-c5e1-4860-bf5e-04588c0278f9;type=command;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=3250;cwd=/home/jimmyy/Documents/victorialogs\ssh: connect to host 192.168.68.59 port 22: No route to host
+]3008;end=ae104d73-c5e1-4860-bf5e-04588c0278f9;exit=failure;status=255\]3008;start=1ebc2e85-e39f-46af-80bf-4f8ff8355270;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=3250;cwd=/home/jimmyy/Documents/victorialogs\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/victorialogs[0m$ ssh sadmin@192.168.68.59[K[K57
+[?2004l]3008;start=90a2b4ae-dff5-43ce-9fb9-0d5403a1e0fe;type=command;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=3250;cwd=/home/jimmyy/Documents/victorialogs\sadmin@192.168.68.57's password: 
+Welcome to Ubuntu 26.04.1 LTS (GNU/Linux 7.0.0-43-generic x86_64)
+
+ * Documentation:  https://docs.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Mon Nov 16 04:49:42 AM UTC 2026
+
+  System load:                      0.48
+  Usage of /:                       17.0% of 232.64GB
+  Memory usage:                     56%
+  Swap usage:                       0%
+  Temperature:                      31.9 C
+  Processes:                        209
+  Users logged in:                  0
+  IPv4 address for wlx7cc2c6259f57: 192.168.68.57
+
+ * Canonical Workshop gives developers fast, composable, reproducible, and
+   secure developer environments that are perfect for agentic workflows.
+
+   https://ubuntu.com/workshop
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Sun Nov 15 02:26:54 2026 from 192.168.68.67
+]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ ls
+[?2004l]3008;start=4db01767-a128-41b7-8a27-0e357d601c89;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\[0m[01;34mgit[0m      [01;34mopenobserve[0m   [01;34mwazuh[0m                    wazuh-install.sh
+[01;34mgraylog[0m  [01;34mvictorialogs[0m  [01;31mwazuh-install-files.tar[0m
+]3008;end=4db01767-a128-41b7-8a27-0e357d601c89;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ cd newvictorialogs
+[?2004l]3008;start=f675ebf1-2147-4724-9cad-3111e52ca4d7;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\-bash: cd: newvictorialogs: No such file or directory
+]3008;end=f675ebf1-2147-4724-9cad-3111e52ca4d7;exit=failure;status=1\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ mkdir newvictorialogs
+[?2004l]3008;start=e769cae1-7a9c-46ef-8c64-e6ea949d5b1d;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\]3008;end=e769cae1-7a9c-46ef-8c64-e6ea949d5b1d;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\[?2004hsadmin@lemonrust:~$ cd newvictorialogs
+[?2004l]3008;start=5fba8a31-82e8-4702-98c5-54d2e9042163;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin\]3008;end=5fba8a31-82e8-4702-98c5-54d2e9042163;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ ls
+[?2004l]3008;start=8c7ffed5-f72f-4b85-9aa3-f89bceac6950;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\]3008;end=8c7ffed5-f72f-4b85-9aa3-f89bceac6950;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ ls[K[Kmkdir[K[K[K[K[Ktouch docker-compso[K[Kose.yml
+[?2004l]3008;start=e6606226-d2c3-4f57-bd9e-3fcd984d27d4;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\]3008;end=e6606226-d2c3-4f57-bd9e-3fcd984d27d4;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ nano dokcer[K[K[K[Kcker-cm[Kompose.yml
+[?2004l]3008;start=c8c981f2-275e-4956-a1a0-bf2d2a283dbb;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;31H(B[0;7m[ Reading... ](B[m[31;30H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1               docker-compose.yml                         [1;73H(B[m[32d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[32;57H(B[0;7m^T(B[m Execute[33d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;51H(B[0;7m*[31d(B[m[K[1;73H[2d[92mservices[39m:[3;3H[92mvictorialogs[39m:[4;5H[92mimage[39m: (B[mdocker.io/victoriametrics/victoria-logs:latest[5;5H[92mcontainer_name[39m: (B[mvictorialogs[6;5H[92mrestart[39m: (B[munless-stopped[7;5H[92mports[39m:[8;6H(B[0;1m[33m[1K - (B[0m[95m"9428:9428"[9;5H[92mvolumes[39m:[10;6H(B[0;1m[33m[1K - [39m(B[m./victoria-logs-data:/victoria-logs-data[11;5H[92mcommand[39m:[12;6H(B[0;1m[33m[1K - (B[0m[95m"-storageDataPath=/victoria-logs-data"[13;6H(B[0;1m[33m[1K - (B[0m[95m"-retentionPeriod=14d"[14;6H(B[0;1m[33m[1K - (B[0m[95m"-httpListenAddr=:9428"[15;5H[92mhealthcheck[39m:[16;7H[92mtest[39m: [33m[[95m"CMD"[39m, [95m"/victoria-logs-prod"[39m, [95m"-healthcheck"[33m][17;7H[92minterval[39m: (B[m10s[18;7H[92mtimeout[39m: (B[m5s[19;7H[92mretries[39m: [95m3[39m(B[m[?12l[?25h[?25l[31d(B[0;7mSave modified buffer?                                                     [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[31;23H[?12l[?25h[?25l[32d(B[0;7m^G(B[m Help[15G(B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup Fil(B[0;7m^T(B[m Browse[33d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^Q(B[m Discard buffer[32;66H[A(B[0;7mWrite to File: docker-compose.yml(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [73G(B[m[31;29H(B[0;7m[ Wrote 18 lines ](B[m[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l]3008;end=c8c981f2-275e-4956-a1a0-bf2d2a283dbb;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ docker copm[K[Kmpose up -d
+[?2004l]3008;start=36768619-98d6-48b7-ad8d-37d267c8aad2;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?25l[0G[2K[+] up 1/2
+[2K [32m✔[0m Network newvictorialogs_default [32mCreated[0m                            [34m0.0s[0m
+[2K [33m⠋[0m Container victorialogs          Creating                           [34m0.0s[0m
+[?25h[?25l[3A[0G
+
+[2K [33m⠙[0m Container victorialogs          Starting                           [34m0.1s[0m
+[?25h[?25l[3A[0G
+
+[2K [33m⠹[0m Container victorialogs          Starting                           [34m0.2s[0m
+[?25h[?25l[3A[0G[2K[+] up 2/2
+
+[2K [32m✔[0m Container victorialogs          [32mStarted[0m                            [34m0.3s[0m
+[?25h]3008;end=36768619-98d6-48b7-ad8d-37d267c8aad2;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ [7mcurl -X POST 'http://192.168.68.57:942[27m[7m8[27m[7m/insert/jsonline?_stream_fields=app,env&_msg_field=message&_time_field=ti[27m[7mm[27m[7mestamp' \ [27m
+[7m  -H 'Content-Type: application/stream+json' \[27m
+[7m  -d '{"timestamp":"2026-11-16T04:55:00Z","app":"my-service","env":"prod",[27m[7m"[27m[7mlevel":"info","message":"User logged in successfully"}' [27m
+[7m  [27m[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl -X POST 'http://192.168.68.57:9428/insert/jsonline?_stream_fields=app,env&_msg_field=message&_time_field=timestamp' \
+  -H 'Content-Type: application/stream+json' \
+  -d '{"timestamp":"2026-11-16T04:55:00Z","app":"my-service","env":"prod","level":"info","message":"User logged in successfully"}'
+  
+[?2004l]3008;start=7ea63379-4815-40f1-8c52-62e1acaa4910;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\]3008;end=7ea63379-4815-40f1-8c52-62e1acaa4910;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ docker compose down
+[?2004l]3008;start=cde5f7d4-1d2a-4c62-bef8-7ce090837c9f;type=command;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?25l[0G[2K[+] down 0/1
+[2K [33m⠋[0m Container victorialogs Stopping                                    [34m0.1s[0m
+[?25h[?25l[2A[0G
+[2K [33m⠙[0m Container victorialogs Stopping                                    [34m0.2s[0m
+[?25h[?25l[2A[0G[2K[+] down 1/2
+[2K [32m✔[0m Container victorialogs          [32mRemoved[0m                            [34m0.2s[0m
+[2K [33m⠋[0m Network newvictorialogs_default Removing                           [34m0.1s[0m
+[?25h[?25l[3A[0G[2K[+] down 2/2
+
+[2K [32m✔[0m Network newvictorialogs_default [32mRemoved[0m                            [34m0.1s[0m
+[?25h]3008;end=cde5f7d4-1d2a-4c62-bef8-7ce090837c9f;exit=success\]3008;start=ac2e7841-7d7d-4281-834f-72e53531edc4;type=shell;machineid=71f8b8702d2f4737af0802e48129fe4b;user=sadmin;hostname=lemonrust;bootid=71cba557-1278-43d9-86e8-e7148a8f32ac;pid=5288;cwd=/home/sadmin/newvictorialogs\[?2004hsadmin@lemonrust:~/newvictorialogs$ [?2004l
+logout
+Connection to 192.168.68.57 closed.
+]3008;end=90a2b4ae-dff5-43ce-9fb9-0d5403a1e0fe;exit=success\]3008;start=1ebc2e85-e39f-46af-80bf-4f8ff8355270;type=shell;machineid=cf5ed9c735e445088a5013cff3b0a503;user=jimmyy;hostname=fedora;bootid=5103a2d8-9e6b-4a00-baff-7c82870cc7b0;pid=3250;cwd=/home/jimmyy/Documents/victorialogs\[?2004h[0m[32mjimmyy@fedora[0m:[32m~/Documents/victorialogs[0m$ [?2004l
+exit
+
+Script done on 2026-11-16 17:57:37+13:00 [COMMAND_EXIT_CODE="0"]
