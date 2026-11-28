@@ -59,4 +59,4 @@ When the container i went to to view the page which is located in the url- `http
 
 The results can be viewed in the openobservedashboard.png
 
-I will continue to test what this dashboard can track.
+I have successfully installed the tracker on the Windows machine. Currently, it is limited to tracking hardware metrics rather than browser behavior, so I'll continue investigating alternative solutions for browser tracking.

@@ -71,4 +71,4 @@ I wanted to test a ping to see if i could see the log.
 
 The results can be viewed in the victorialogAfterping.png.
 
-Im still working towards how to use in my homelab to track securitylogs.
+I have configured log ingestion and confirmed that reports are successfully sending to VictoriaLogs. Next, I'll evaluate whether I can implement lightweight, efficient client-side tracking to capture user browser behavior.
